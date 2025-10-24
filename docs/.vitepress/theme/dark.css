@@ -1,0 +1,24 @@
+/* --- Dark Mode Circular Reveal Animation --- */
+::view-transition-old(*) {
+  animation: none;
+}
+::view-transition-new(*) {
+  /* The 'globalDark' animation is applied to the new view */
+  animation: globalDark 0.6s ease-in;
+}
+
+@keyframes globalDark {
+  from {
+    /* Starts the circle reveal at 0% size from the click position */
+    clip-path: circle(0% at var(--darkX) var(--darkY));
+  }
+  to {
+    /* Expands the circle to 100% to fill the screen */
+    clip-path: circle(150% at var(--darkX) var(--darkY));
+  }
+}
+
+/* Optional: This makes images slightly less bright in dark mode for better eye comfort. */
+.dark img {
+    filter: brightness(0.8);
+}
