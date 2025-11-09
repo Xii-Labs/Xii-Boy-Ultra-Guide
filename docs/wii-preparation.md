@@ -1,6 +1,6 @@
 # Wii Preparation
 
-## Identify Your Wii’s Revision
+## Identify the Wii’s Revision
 
 There are several revisions of the Nintendo Wii motherboard, but for this guide, only one difference really matters: the type of processor the board uses. To build a portable Wii that runs cool and uses less power, you'll need a motherboard with the **Hollywood-1 SoC** (**S**ystem **o**n **C**hip). These are often called **“4-layer Wiis”** because the **Hollywood-1** is always paired with a **4-layer PCB** as opposed to the older revision’s **6-layer PCB**.
 
@@ -87,15 +87,13 @@ It is highly reccomended to format your MicroSD card not only with FAT32, but al
 
 **RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed.
 
-## Final Steps Before Disassembly
-
-### Dump Your Games
+## Dumping Wii & GameCube Games
 
 :::warning Critical Step
 Games must be dumped **before** trimming the Wii, as the **Xii-Boy Ultra** does not have a disc drive, and games are loaded from the MicroSD card.
 :::
 
-Full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website.](https://dolphin-emu.org/docs/guides/ripping-games/). To access game ripping Homebrew from the RVLoader menu, use the C-Stick to navigate to the Homebrew loader section.
+Full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website](https://dolphin-emu.org/docs/guides/ripping-games/). To access game dumping Homebrew from the RVLoader menu, use the C-Stick to navigate to the Homebrew loader section. Wii games need to be stored as `.wbfs` files, and GameCube games need to be stored as `.iso` files. Exact file placement is addressed in [RVLoader Setup](https://xbu-guide.me/rvloader-setup).
 
 ## Disassemble the Wii
 
