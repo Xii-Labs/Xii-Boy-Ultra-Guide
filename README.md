@@ -3,17 +3,12 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0e16c1b4-ce3c-4ea4-8d4d-d16bbd0377ba" width="80%" />
+  <img src="https://github.com/user-attachments/assets/f72b6747-0529-4526-baf6-5ac36f609533" width="80%" />
 </p>
 
+The official online guide to build a **Xii-Boy Ultra**! Site was made using Vitepress. **Access the guide here**: [xbu-guide.me](https://xbu-guide.me/)
 
-The official online guide to build a **Xii-Boy Ultra**! 
-
-Site was made using Vitepress
-
-**Live Demo**: [xbu-guide.me/](https://xbu-guide.me/)
-
-## Credits ✨
+## ✨ Credits ✨
 
 The full list of credits and contributors can be found on the [credits section of the site](https://xbu-guide.me/credits). Massive **thank you** to anyone who helped along the way!
 
