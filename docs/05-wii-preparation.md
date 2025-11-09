@@ -34,35 +34,70 @@ Before proceeding, your Wii must be "softmodded" with the **Homebrew Channel**. 
 
 1.  Navigate to the [RVLoader GitHub page](https://github.com/Aurelio92/RVLoader) on your computer.
 
+2.  Select the `Releases` button on the right side of the screen.
 
+![alt text](images/rvloader/rvloader_step1-2.png)
 
-2.  Select the **“Releases”** button on the right side of the screen.
-3.  Select the `.zip` file of the latest RVLoader release. Currently it is `v2.1`, but it may be higher in the future.
+3.  Select the `.zip` file of the latest RVLoader release.
+
+![alt text](images/rvloader/rvloader_step3.png)
+
 4.  Navigate to your computer’s downloads folder (**Finder** on MacOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
+
 5.  A folder will be created with the same name, without the `.zip` extension. Open this folder.
-6.  Insert the **MicroSD card** into your computer (use a MicroSD to USB adapter if needed) 
+
+![alt text](images/rvloader/rvloader_step4-5.png)
+
+6.  Insert the **MicroSD card** into your computer (use a MicroSD to USB adapter if needed). Drag the **contents** of the `.zip` folder onto the **root directory** of the MicroSD card. 
+
+![alt text](images/rvloader/rvloader_step6.png)
 
 :::details MicroSD Formatting Notice
 It is highly reccomended to format your MicroSD card not only with FAT32, but also 32k cluster size. If on Windows, [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) provides a simple interface to do so.
 :::
-7.  Drag the **contents** of the `.zip` folder onto the **root directory** of the MicroSD card.
-8.  Eject the drive and remove it. Then insert the MicroSD card into the MicroSD to USB adapter and plug it into one of the Wii’s back USB ports.
-9.  Power on the Wii and navigate to the Homebrew Channel. Select `RVLoader` from the list and boot it. Follow the prompts to `enable Wi-Fi patches` and `disable VGA` when presented.
-10.  **RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed.
 
+7.  Eject the drive and remove it. Then insert the MicroSD card into the MicroSD to USB adapter and plug it into one of the Wii’s back USB ports.
 
+![alt text](images/rvloader/rvloader_step7.png)
+
+8.  Power on the Wii and navigate to the Homebrew Channel. Select `RVLoader` from the list and boot it by selecting `Load`. A screen with the question `RVLoader is not installed. Do you want to run the installer?` will be presented. Press `A` to continue, and set the configuration to `Patch out WiFi: Yes` and `Enable VGA: No`. Press `Start/Home` to run the install process.
+
+<Carousel :images="[
+  {
+    src: '/images/rvloader/hbl.png',
+    alt: '',
+    description: ''
+  },
+  {
+    src: '/images/rvloader/hbl_rvloader.png',
+    alt: '',
+    description: ''
+  },
+  {
+    src: '/images/rvloader/rvloader_intro.png',
+    alt: '',
+    description: ''
+  },
+  {
+    src: '/images/rvloader/rvloader_selection.png',
+    alt: '',
+    description: ''
+  } 
+]" />
+
+**RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed.
 
 ## Final Steps Before Disassembly
 
 ### Dump Your Games
 
 :::warning Critical Step
-Games must be dumped **before** trimming the Wii, as the Xii-Boy Ultra does not have a disc drive, and games are loaded from the MicroSD card.
+Games must be dumped **before** trimming the Wii, as the **Xii-Boy Ultra** does not have a disc drive, and games are loaded from the MicroSD card.
 :::
 
-A full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website.](https://dolphin-emu.org/docs/guides/ripping-games/)
+Full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website.](https://dolphin-emu.org/docs/guides/ripping-games/). To access game ripping Homebrew from the RVLoader menu, use the C-Stick to navigate to the Homebrew loader section.
 
-## Disassemble Your Wii
+## Disassemble the Wii
 
 Follow a standard guide to disassemble the Wii and remove the motherboard. The iFixit guide is highly recommended.
 

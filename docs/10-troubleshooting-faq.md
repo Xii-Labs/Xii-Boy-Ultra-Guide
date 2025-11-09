@@ -25,7 +25,7 @@ This error can occur if there is a **break in the USB Data + (`D+`) and Data - (
 1.  Ensure that the Xii-Boy Ultra has the **latest version of RVLoader installed**. The latest version can be found under the releases section on [RVLoader's GitHub page.](https://github.com/Aurelio92/RVLoader/releases)
 2.  Remove the GameCube memory card components (`DA4`, `DA2`, and `DA1`) on top of the back of the trimmed Wii. If they are removed and the issue persists, check for solder bridges between those solder pads.
 
-![Solution for Nintendont Loading IOS58 Kernel error](public/images/diagrams/nintendont-ios-58-solution.png)
+![Solution for Nintendont Loading IOS58 Kernel error](/images/diagrams/nintendont-ios-58-solution.png)
 
 ### RVLoader Crashes, System Freezes, or I2C Errors
 
