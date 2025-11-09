@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Start the Guide
-      link: /01-introduction
+      link: /introduction
     - theme: alt
       text: Purchase a Kit
       link: https://github.com/Xenii1642/Xii-Boy-Ultra
@@ -55,6 +55,6 @@ hero:
       </span>
       <span>Credits</span>
     </h3>
-    <p class="card-description">Thank you to everyone who helped along the way!</p>
+    <p class="card-description">Thank you to everyone who has helped along the way!</p>
   </a>
   </div>
