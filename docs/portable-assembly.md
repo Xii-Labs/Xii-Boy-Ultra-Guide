@@ -12,83 +12,32 @@ This trigger mod is **only** compatible with a certain revision of 3rd party joy
 
 1.  Use a pair of pliers to grip the joystick head and carefully rotate it `90°` counterclockwise. Keep the pliers as flat as possible. The stick should detach from the mechanism. Sometimes, the stick may break during removal, leaving a bit of plastic inside the base of the mechanism. This is not a major issue, the plastic can be removed later, but it can be quite difficult.
 
-<Carousel :images="[
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-top.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-top-twist.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-top-broken.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-break" />
 
 2.  Remove the back metal cover from the joystick assembly. There are four clips, use an X-ACTO blade to slightly bend the three small clips. That should be enough to allow the metal plate to detach. Be careful not to lose any small parts.
 
-<Carousel :images="[
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-metal-clip.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-opening.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-detached.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-open" />
 
 3.  On the FPC, carefully peel off the button using an X-ACTO blade. The button consists of an adhesive sticker with a small metal dome.
 
-<Carousel :images="[
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-button-peel.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystock-peeled.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-button" />
 
 4.  If part of the joystick head broke inside the mechanism, remove the small white mechanical parts from the top section to clear the area. Then, use two pliers to remove the remaining part of the plastic head.
 
-
-<Carousel :images="[
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-top-assembly.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-top-without-metal.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/joycon-trigger-mod/joystick-plastic.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-plastic" />
 
 5.  Reassemble the joystick in the same way as before. Then install the 3D printed trigger by pressing the trigger down firmly from the top until it clicks into place.
 
-<video controls src="/images/steps/joycon-trigger-mod/joystick-trigger-install.webm" title="Title"></video>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/MpkQuF2u9gk"
+    title="Joycon Trigger Mod"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 6.  Test the trigger to ensure it moves smoothly. If the movement is rough, remove the 3D printed trigger. Then, use a lighter for a moment by the bottom of the trigger. Insert it and repeat until the mechanism feels nice.
 
@@ -96,31 +45,17 @@ This trigger mod is **only** compatible with a certain revision of 3rd party joy
 
 1.  Peel away the sticker located on the hub of the fan.
 
-<Carousel :images="[
-  {
-    src: '/images/steps/brushless-fan-mod/fan-peel.jpeg',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/steps/brushless-fan-mod/fan-peeled.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/brushless-fan-sticker" />
 
 2.  Desolder the red and black wires.
 
-<Carousel :images="[
-  {
-    src: '/images/steps/brushless-fan-mod/fan-desoldered.jpeg',
-    alt: '',
-    description: ''
-  }
-]" />
+<ImageCarousel step="portable-assembly/brushless-fan-desolder" />
 
-1.  Cut `62mm` worth of picolock cable (from the tip of the connector) and strip a small section at the end.
-2.  Solder the new picolock wires, noting the polarity.
+3.  Cut `62mm` worth of picolock cable (from the tip of the connector) and strip a small section at the end.
+
+<ImageCarousel step="portable-assembly/brushless-fan-wire" />
+
+4.  Solder the new picolock wires, noting the polarity.
 
 ### 3. Rumble Motor
 

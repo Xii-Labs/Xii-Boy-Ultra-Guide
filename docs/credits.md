@@ -176,7 +176,7 @@ next: false
 
 <!-- Beta Testers -->
 <div class="section-box">
-<div class="section-header">Beta Testers</div>
+<div class="section-header">Beta Kit Testers</div>
 <div class="credits-grid-beta">
   <div class="credit-card">
     <img src="/images/profiles/joshsjunk.png" alt="JoshsJunk05" class="credit-avatar" />
