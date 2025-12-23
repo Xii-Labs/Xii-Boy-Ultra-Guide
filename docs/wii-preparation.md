@@ -36,21 +36,21 @@ Before proceeding, your Wii must be "softmodded" with the **Homebrew Channel**. 
 
 2.  Select the `Releases` button on the right side of the screen.
 
-![alt text](images/rvloader/rvloader_step1-2.png)
+![alt text](assets/wii-preparation/rvloader-download/rvloader_step1-2.webp)
 
 3.  Select the `.zip` file of the latest RVLoader release.
 
-![alt text](images/rvloader/rvloader_step3.png)
+![alt text](assets/wii-preparation/rvloader-download/rvloader_step3.webp)
 
 4.  Navigate to your computer’s downloads folder (**Finder** on MacOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
 
 5.  A folder will be created with the same name, without the `.zip` extension. Open this folder.
 
-![alt text](images/rvloader/rvloader_step4-5.png)
+![alt text](assets/wii-preparation/rvloader-download/rvloader_step4-5.webp)
 
 6.  Insert the **MicroSD card** into your computer (use a MicroSD to USB adapter if needed). Drag the **contents** of the `.zip` folder onto the **root directory** of the MicroSD card. 
 
-![alt text](images/rvloader/rvloader_step6.png)
+![alt text](assets/wii-preparation/rvloader-download/rvloader_step6.webp)
 
 :::details MicroSD Formatting Notice
 It is highly reccomended to format your MicroSD card not only with FAT32, but also 32k cluster size. If on Windows, [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) provides a simple interface to do so.
@@ -58,32 +58,11 @@ It is highly reccomended to format your MicroSD card not only with FAT32, but al
 
 7.  Eject the drive and remove it. Then insert the MicroSD card into the MicroSD to USB adapter and plug it into one of the Wii’s back USB ports.
 
-![alt text](images/rvloader/rvloader_step7.png)
+![alt text](assets/wii-preparation/rvloader-download/rvloader_step7.webp)
 
-8.  Power on the Wii and navigate to the Homebrew Channel. Select `RVLoader` from the list and boot it by selecting `Load`. A screen with the question `RVLoader is not installed. Do you want to run the installer?` will be presented. Press `A` to continue, and set the configuration to `Patch out WiFi: Yes` and `Enable VGA: No`. Press `Start/Home` to run the install process.
+8.  Power on the Wii and navigate to the Homebrew Channel. Select `RVLoader` from the list and boot it by selecting `Load`. A screen with the question `RVLoader is not installed. Do you want to run the installer?` will be presented. Press `A` to continue, and set the configuration to `Patch out WiFi: Yes` and `Enable VGA: Yes`. Press `Start/Home` to run the install process.
 
-<Carousel :images="[
-  {
-    src: '/images/rvloader/hbl.png',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/rvloader/hbl_rvloader.png',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/rvloader/rvloader_intro.png',
-    alt: '',
-    description: ''
-  },
-  {
-    src: '/images/rvloader/rvloader_selection.png',
-    alt: '',
-    description: ''
-  } 
-]" />
+<ImageCarousel step="wii-preparation/rvloader-install" />
 
 **RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed.
 
