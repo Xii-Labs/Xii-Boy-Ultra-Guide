@@ -74,7 +74,13 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 ### Installing the Display
 
 1.  Peel off the film covering the front of the glass.
+
+<ImageCarousel step="portable-assembly/display-peel" />
+
 2.  Place the display into the top shell at a 45° angle. The bottom of the display should sit flat on the indent of the case, and the ribbon cable should go through to the inside.
+
+<ImageCarousel step="portable-assembly/display-place" />
+
 3.  Slowly rotate the screen toward the front of the shell. At the very end, a small amount of force may be required to set the display in place. A small lip surrounds the indent, and you may hear a soft “click” as the display snaps into place.
 
 :::info
