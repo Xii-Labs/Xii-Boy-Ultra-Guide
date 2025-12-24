@@ -31,7 +31,35 @@ Do NOT apply force with the Dremel. The wheel does the cutting; you are only gui
 **180 → 200 → 300 → 400 → 600 → 800 → 1000 grit** (anything higher than 1000 grit is optional).  
 Low grits remove more of the board; high grits remove small amounts and create a smooth finish. Sand away burs or extrusions. At 1000 grit, each of the four layers should be distinct and the sides smooth.  
 
-8. Remove tape and clean the board. Trimming is finished!  
+<ImageCarousel step="wii-trimming/trimming-steps" />
+
+1. Remove tape and clean the board. Trimming is finished!  
+
+## 1.8V LDO Removal
+
+The trimmed Wii motherboard contains a `1.8v LDO` (Voltage regulator) which needs to be removed to work with the **RVL-PMS2**.
+
+1. On the top of the trimmed Wii, locate the `1.8v LDO` (Designated as `U4` on the [silkscreen](https://xbu-guide.me/basic-electronics#what-is-silkscreen)) and apply flux to the top pad and bottom 5 pins.
+2. Use a soldering iron and flood the pad and pins with excess solder. The pins are okay to connect to each other here since no power is being applied.
+3. Set a hot air gun/station to `425°C at 80% airflow` and use a medium or large nozzle. Aim the nozzle at the `1.8v LDO` and keep it only a few cm away. Move the hot air gun around in a circular motion over the part, and continue until all the solder is molten. 
+4. Use a pair of tweezers to slide the `1.8v LDO` off the board. **Do not apply excessive force**, as the solder may not be completely molten and traces would rip. 
+5. Dispose of the `1.8v LDO` and clean the area using a **Q-tip** and **99% isopropyl alcohol**.
+
+<ImageCarousel step="wii-trimming/1v8ldo" />
+
+:::details Using a Soldering Iron Instead of a Hot Air Gun
+It is also possible to remove the `1.8v LDO` using a soldering iron and dremel instead of a hot air gun. To do this, cut the 5 pins on the bottom of the LDO using the dremel without cutting into the PCB. Then, heat each pin with a soldering iron and remove them one-by-one. After the pins are removed, set the soldering iron to a high temperature (`425°C`) and let it heat the top LDO pad until the LDO is able to slide off. 
+:::
+
+## C4 Capacitor Removal
+
+Capacitor `C4` next to the `1.8v LDO` needs to be removed in order for the **Xii-Strip** to sit flush against the board.
+
+1. Push a large soldering iron tip against the side of the capacitor and stay there until the capcitor heats up.
+2. The capcaitor is small, so this should only take a few seconds. After it is loose, push it off the board and dispose of it.
+3. Clean the area using a **Q-tip** and **99% isopropyl alcohol**.
+
+<ImageCarousel step="wii-trimming/c4" />
 
 ## Testing a Trimmed Board  
 

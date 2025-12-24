@@ -16,7 +16,13 @@ There are several revisions of the Nintendo Wii motherboard, but for this guide,
 * **Colored Wiis (Black, Blue, or Red):** Always 4-layer with Hollywood-1 or newer.
 * **White Wiis:** Could be 4-layer or 6-layer, depending on when they were made.
 
-To confirm the revision without opening the Wii, go to the **[Wii Revision Checker](https://wii-revision.netlify.app/)** website and enter the Wii’s serial number.
+<!-- TODO: Add something about identifying the revisions by looking at the board -->
+
+To confirm the revision without opening the Wii, go to the **[Wii Revision Checker](https://wii-revision.netlify.app/)** and enter the Wii’s serial number.
+
+:::warning Wii Mini Compatibility
+The [Wii Mini](https://nintendo.fandom.com/wiki/Wii_Mini) (`RVO-CPU-01` and `RVO-CPU-10`) has a different board layout, and is not supported by the **Xii-Boy Ultra**. 
+:::
 
 :::details Want to Learn More About Wii Revisions?
 To learn more about all the different Wii board versions, check out the [Wiki page by Rare Gaming Dump](https://wiki.raregamingdump.ca/index.php/Wii/Board_Revisions).
@@ -53,7 +59,7 @@ Before proceeding, your Wii must be "softmodded" with the **Homebrew Channel**. 
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step6.webp)
 
 :::details MicroSD Formatting Notice
-It is highly reccomended to format your MicroSD card not only with FAT32, but also 32k cluster size. If on Windows, [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) provides a simple interface to do so.
+The MicroSD card must be formatted as FAT32 in MBR with a 32k cluster size in order to work. Most will come in this format out of the box, however if any issues arise format with [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) on Windows or `Disk Utility` on MacOS.
 :::
 
 7.  Eject the drive and remove it. Then insert the MicroSD card into the MicroSD to USB adapter and plug it into one of the Wii’s back USB ports.

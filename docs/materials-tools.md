@@ -1,6 +1,6 @@
 # Materials and Tools
 
-To make the Xii-Boy Ultra build as simple as possible, we’ve organized the required materials and tools into an easily accessible list. Click the links to buy the required items. Amazon links are provided whenever possible, but note that cheaper prices may be avaiable at other retailers such as Aliexpress.
+To make the **Xii-Boy Ultra** build as simple as possible, we’ve organized the required materials and tools into an easily accessible list. Amazon links are provided whenever possible, but note that cheaper prices may be avaiable at other retailers such as Aliexpress.
 
 ## Soldering Tools
 
@@ -51,7 +51,7 @@ Ensure the Tri-Point (Y0) screwdriver has a long shaft to reach recessed screws 
 
 ## Other / Sourcing
 
-- **Broken Wii (Ebay Link):** [For Parts or Repair Wii](https://www.ebay.com/sch/i.html?_nkw=Nintendo+Wii+Broken+Disc+Drive&_sacat=0&_from=R40&_sop=10&rt=nc&LH_BIN=1)  
+- **4-Layer Wii (Ebay Link):** [For Parts or Repair Wii](https://www.ebay.com/sch/i.html?_nkw=Nintendo+Wii+Broken+Disc+Drive&_sacat=0&_from=R40&_sop=10&rt=nc&LH_BIN=1)  
 :::details What to Search For
-Broken Wiis can be found for quite cheap, often in the **$15-$20** range after shipping. When portabilizing, the disc drive is scrapped, so search for 4-layer Wiis with non-functional drives. Refer to [Wii Preparation](https://xbu-guide.me/wii-preparation#wii-preparation) to confirm the Wii is 4-layers before purchasing.
+Broken Wiis can often be found in the **$20-$25** range after shipping. When portabilizing, the disc drive is scrapped, so search for **4-layer Wiis** with non-functional drives. Use the **[Wii Revision Checker](https://wii-revision.netlify.app/)** and refer to [Wii Preparation](https://xbu-guide.me/wii-preparation#wii-preparation) to confirm the Wii is 4-layers before purchasing.
 :::

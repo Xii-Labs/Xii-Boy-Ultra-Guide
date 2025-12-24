@@ -1,24 +1,26 @@
 # Assembling the Xii-Boy Ultra
 
+<!-- TODO: Add time/difficulty ratings and a description -->
+
 ## Parts Preparation
 
 Some off-the-shelf parts used on the **Xii-Boy Ultra** will need to be modified before they can work properly in the build.
 
-### 1. Joycon Joystick Triggers
+### Joystick Triggers
 
 :::danger Important
-This trigger mod is **only** compatible with a certain revision of 3rd party joysticks. **OEM sticks are not compatible**, and Hall effect sticks will not work either. Please refer to the link and the following photos to ensure the correct revision is used.
+This trigger mod is **only** compatible with a specific revision of 3rd party joysticks. **OEM and Hall sticks are not compatible and will not work**. Use the included joysticks in the **Xii-Boy Ultra Kit**.
 :::
 
-1.  Use a pair of pliers to grip the joystick head and carefully rotate it `90°` counterclockwise. Keep the pliers as flat as possible. The stick should detach from the mechanism. Sometimes, the stick may break during removal, leaving a bit of plastic inside the base of the mechanism. This is not a major issue, the plastic can be removed later, but it can be quite difficult.
+1.  Retrieve a joystick from **Bag G2**. Grip the joystick head with pliers and carefully rotate it `90°` counterclockwise. Keep the pliers as flat as possible. The stick should detach from the mechanism. Dispose of the joystick head. Sometimes, the stick may break during removal, leaving a bit of plastic inside the base of the mechanism. This is not a major issue, the plastic can be removed later, but it can be quite difficult. 
 
 <ImageCarousel step="portable-assembly/joycon-trigger-mod-break" />
 
-2.  Remove the back metal cover from the joystick assembly. There are four clips, use an X-ACTO blade to slightly bend the three small clips. That should be enough to allow the metal plate to detach. Be careful not to lose any small parts.
+1.  Remove the back metal cover from the joystick assembly. There are four clips, use an **X-ACTO blade** to slightly bend the three small clips. The metal plate will then detach. Be careful not to lose any small parts.
 
 <ImageCarousel step="portable-assembly/joycon-trigger-mod-open" />
 
-3.  On the FPC, carefully peel off the button using an X-ACTO blade. The button consists of an adhesive sticker with a small metal dome.
+3.  On the FPC, carefully peel off the button using an **X-ACTO blade**. The button consists of an adhesive sticker with a small metal dome.
 
 <ImageCarousel step="portable-assembly/joycon-trigger-mod-button" />
 
@@ -41,7 +43,9 @@ This trigger mod is **only** compatible with a certain revision of 3rd party joy
 
 6.  Test the trigger to ensure it moves smoothly. If the movement is rough, remove the 3D printed trigger. Then, use a lighter for a moment by the bottom of the trigger. Insert it and repeat until the mechanism feels nice.
 
-### 2. Brushless Fan
+7.  Repeat the process for the second trigger.
+
+<!-- ### 2. Brushless Fan
 
 1.  Peel away the sticker located on the hub of the fan.
 
@@ -55,15 +59,15 @@ This trigger mod is **only** compatible with a certain revision of 3rd party joy
 
 <ImageCarousel step="portable-assembly/brushless-fan-wire" />
 
-4.  Solder the new picolock wires, noting the polarity.
+4.  Solder the new picolock wires, noting the polarity. -->
 
-### 3. Rumble Motor
+<!-- ### 2. Rumble Motor
 
 1.  Cut `16mm` worth of picolock cable (from the tip of the connector) and strip a small section at the end.
 2.  If you have heat shrink tubing, place it over the red and blue wires now. Otherwise, electrical tape is needed after combining the wires.
 3.  Solder the wires to their corresponding picolock wires. Keep the connections as flush as possible and avoid wire fraying. It is best to apply flux to both ends of the wire, put a little bit of solder on the tip of the iron, then try to spread the solder over the joint to make a solid connection.
 4.  Verify the connection with a small tug on the wires, and by checking continuity with the tip of the picolock terminals.
-5.  Heat the heat shrink tubing to cover the exposed wires, or use electrical tape instead.
+5.  Heat the heat shrink tubing to cover the exposed wires, or use electrical tape instead. -->
 
 ## Top Half Assembly
 
