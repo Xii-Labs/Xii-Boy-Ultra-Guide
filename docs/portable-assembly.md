@@ -16,7 +16,7 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 <ImageCarousel step="portable-assembly/joycon-trigger-mod-break" />
 
-1.  Remove the back metal cover from the joystick assembly. There are four clips, use an **X-ACTO blade** to slightly bend the three small clips. The metal plate will then detach. Be careful not to lose any small parts.
+2.  Remove the back metal cover from the joystick assembly. There are four clips, use an **X-ACTO blade** to slightly bend the three small clips. The metal plate will then detach. Be careful not to lose any small parts.
 
 <ImageCarousel step="portable-assembly/joycon-trigger-mod-open" />
 
@@ -87,7 +87,7 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 After the click, the display will be held in by friction and the lip. It is not recommended to remove the display more than once or twice, as this can cause issues with the fitting.
 :::
 
-### Installing the Xii-DD PCB (XBU-002)
+### Xii-DD PCB (XBU-002)
 
 1.  Flip the top shell so the external side is facing down. Then, slide the Xii-DD PCB at a `20°` angle on the back of the display until it pushes against the top of the shell and underneath the notch. Fasten the Xii-DD PCB in place using two `4mm` Phillips screws.
 
@@ -113,7 +113,7 @@ After the click, the display will be held in by friction and the lip. It is not 
 
 <ImageCarousel step="portable-assembly/membrane-place" />
 
-### Preparing the Controller PCB (XBU-003)
+### Controller PCB (XBU-003)
 
 :::danger Note
 The order of the following steps is not optimal and needs to be updated. Use as reference only.
@@ -127,7 +127,7 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <ImageCarousel step="portable-assembly/rumble-connect" />
 
-1.  Unlock the ZIF connector on the Controller PCB labeled `To Xii-DD`. Insert an 18 pin FFC with the blue stiffener facing up. Then, lock the connector.
+3.  Unlock the ZIF connector on the Controller PCB labeled `To Xii-DD`. Insert an 18 pin FFC with the blue stiffener facing up. Then, lock the connector.
 
 <ImageCarousel step="portable-assembly/controller-pcb-zif" />
 
@@ -137,7 +137,7 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <!-- TODO: NEW PHOTOS -->
 
-### Finishing Top Half Installation
+### Finishing Top Half
 
 1.  Line up the completed Controller PCB with its screw posts. Ensure the cables for the rumble motor and speakers do not get caught underneath the PCB. Then, screw the board into place using eleven `4mm` Phillips screws.
 
@@ -171,56 +171,131 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 ### Lower Layer
 
-1.  Start the first layer off by installing the black heat sink and modified fan. The heat sink should be placed in the orientation that aligns the arches with the arches on the shell. The fan must be installed so that the cable faces the USB-C port and the top of the shell. There is a small notch in the shell that allows the cables to pass through.
+1.  Install the heatsink and fan. The heatsink should be placed in the orientation that aligns the arches with the arches on the shell. The fan must be installed so that the cable faces the USB-C port and the top of the shell. There is a small notch in the shell that allows the cables to pass through.
+
+<ImageCarousel step="portable-assembly/heatsink-fan-install" />
+
 2.  Place the RZ and LZ bumper buttons.
+
+<ImageCarousel step="portable-assembly/rz-lz-buttons" />
+
 3.  Connect the two modified Joy-Con Joystick Triggers to the Trigger PCB ZIF connectors.
+
+<ImageCarousel step="portable-assembly/triggers-connect" />
+
+:::danger Important
+GUIDE NEEDS UPDATED - PLACE WIFI ANTENNAS (STEP 8)  BEFORE FASTENING THIS BOARD
+:::
+
 4.  Align the Trigger PCB and triggers with their respective screw posts. Fasten the Trigger PCB with five `4mm` Phillips screws, and fasten the triggers with two `4mm` Phillips screws each.
+
+<ImageCarousel step="portable-assembly/trigger-pcb-install" />
 
 :::info
 The ribbon cables on the triggers will need to be bent in order to fit properly.
 :::
 
 5.  Unlock the 8 Pin ZIF Connector on the Trigger PCB labeled “To Main PCB”. Insert the 8 Pin FFC and lock the connector. Bend the cable so that it is facing straight up - 90° from the connector.
+
+<ImageCarousel step="portable-assembly/trigger-pcb-zif" />
+
 6.  Apply Arctic MX-4 thermal paste to the heat sink in an “X” shape. Apply more than what is pictured, but not so much it overflows.
+
+<ImageCarousel step="portable-assembly/thermal-paste" />
+
 7.  Firmly place the `30mm x 55mm x 1mm` copper plate over the heat sink and fan.
+
+<ImageCarousel step="portable-assembly/copper-plate" />
+
 8.  Remove the white adhesive strips from the two black Wi-Fi antennas and place them as pictured. Wrap each of the wires twice around the upper right screw post.
+
+<ImageCarousel step="portable-assembly/antenna-place" />
+
 9.  Take the clear light pipe and a pair of pliers. Position the light pipe at the top of the shell on the left of the power button hole. Carefully use the pliers to push the pipe into place. Do not apply too much force, as this could crack the shell easily.
-10. Place the Power (closest to the light pipe) and BT Sync (closest to the corner) buttons into their slots. Each button has a notch, so note the orientation. A small piece of tape can be used to keep them there.
-11. Place the Brightness and Volume rockers into their slots. Each button has a notch, so note the orientation. A small piece of tape can be used to keep them there.
-12. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the Main PCB. The module should have a small cushion to keep it adhered to the Main PCB. If the cushion ripped or is missing, a strip of double sided tape works instead.
-13. Take the Wi-Fi module that was retrieved from the Wii’s PCB and attach the Wi-Fi antenna connectors. Insert the Wi-Fi connector into the white connector on the bottom of the Main PCB. Ensure the Wi-Fi antenna cables are facing toward the top of the bottom shell.
+
+<ImageCarousel step="portable-assembly/light-pipe" />
+
+10. Place the `Power` (closest to the light pipe) and `Bluetooth Sync` (closest to the corner) buttons in their slots. Each button has a notch, so note the orientation. A small piece of tape can be used to keep them in place.
+
+<ImageCarousel step="portable-assembly/power-bluetooth-buttons" />
+
+11. Place the `Brightness` and `Volume` rockers into their slots. Each rocker has a notch, so note the orientation. A small piece of tape can be used to keep them there. 
+
+<ImageCarousel step="portable-assembly/volume-brightness-rockers" />
+
+12. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the **Main PCB**. The module should have a small cushion to keep it adhered to the **Main PCB**. If the cushion ripped or is missing, a strip of double sided tape works instead.
+
+<ImageCarousel step="portable-assembly/bluetooth-module" />
+
+13.  Take the Wi-Fi module that was retrieved from the Wii’s PCB and attach the Wi-Fi antenna connectors. Insert the Wi-Fi connector into the white connector on the bottom of the **Main PCB**. Ensure the Wi-Fi antenna cables are facing toward the top of the shell.
+
+<ImageCarousel step="portable-assembly/wifi-module" />
+
 
 ### Upper Layer
 
-1.  Take the Main PCB and insert it at a 45° angle. The USB-C port and Headphone Jack will slot nicely into place. While lowering the PCB, ensure the Trigger PCB flex cable and Fan PicoLock (not pictured) pass into the Upper Layer.
-2.  If everything was performed properly, the Main PCB will sit flat against the shell. If not, lift it and try again, making sure no cables were pinched underneath. Then, screw nine `4mm` Phillips screws into place.
-3.  Pull directly up and remove the tape covering the Power, BT Sync, Brightness, and Volume buttons.
-4.  Unlock the 8 Pin Trigger PCB ZIF connector. Bend the FFC as pictured and insert it into the ZIF connector. Lock the connector, and bend the cable over the RVL-PMS2.
-5.  Connect the Fan’s male PicoLock connector to the Main PCB’s Female connector located in the upper right of the board.
+1.  Insert the **Main PCB** and into the shell at a `45°` angle. The USB-C port and Headphone Jack will slot nicely into place. While lowering the PCB, ensure the Trigger PCB flex cable and Fan PicoLock (not pictured) pass into the Upper Layer.
 
-:::info
-This is not pictured, as it was added in a later revision.
-:::
+<ImageCarousel step="portable-assembly/main-pcb-place" />
 
-6.  Take the 40p Shielded FFC (XBU-007) and bend the stiffener to a 90° angle. Note the orientation, as the flex can only be installed one way. If it is inserted in the incorrect orientation, it will cause a short between 3.3v and GND.
+2.  If everything was performed properly, the **Main PCB** will sit flat against the shell. If not, lift it and try again, ensuring no cables were pinched underneath. Then, screw nine `4mm` Phillips screws into place.
+
+<ImageCarousel step="portable-assembly/main-pcb-install" />
+
+3.  Pull directly up and remove the tape covering the `Power`, `BT Sync`, `Brightness`, and `Volume` buttons.
+
+<ImageCarousel step="portable-assembly/tape-removal" />
+
+4.  Unlock the 8 Pin **Trigger PCB ZIF connector**. Bend the FFC as pictured and insert it into the ZIF connector. Lock the connector, and bend the cable over the **RVL-PMS2**.
+
+<ImageCarousel step="portable-assembly/main-pcb-trigger-zif" />
+
+5.  Connect the Fan’s male PicoLock connector to the **Main PCB’s Female connector** located in the upper left corner of the board. Tuck the excess cable to the side so it avoids the copper plate.
+
+<ImageCarousel step="portable-assembly/fan-connect" />
+
+6.  Take the **40p Shielded FFC (XBU-007)** and bend the tips of the stiffener. Note the orientation, as the flex can only be installed one way. **If it is inserted in the incorrect orientation, it will cause a short between 3.3v and GND.**
+
+<ImageCarousel step="portable-assembly/shielded-ffc" />
+
 7.  Unlock the 40 Pin Xii-DD ZIF connector. Bend the FFC as pictured and insert it into the ZIF connector. Lock the connector.
-8.  Apply a few drops of 99% isopropyl alcohol onto the copper plate. A Q-Tip can then be used to wipe it up and clean off the surface. Repeat for the Hollywood and Broadway on the Wii’s PCB.
-9.  Check the voltages of both 18650 battery cells with a multimeter. Ensure they are within ~0.1v of each other. Insert each of the batteries into the holders at the bottom of the shell, noting the orientation (+ on the left and - on the right). Check that there is a solid connection between the battery terminals and the Main PCB battery tabs.
+
+<ImageCarousel step="portable-assembly/shielded-ffc-install" />
+
+8.  Apply a few drops of 99% isopropyl alcohol onto the copper plate. A Q-Tip can then be used to wipe it up and clean off the surface. Repeat for the Hollywood and Broadway chips on the Wii’s PCB.
+
+<ImageCarousel step="portable-assembly/copper-clean" />
+
+9.  Check the voltages of both **18650 battery cells** with a multimeter. Ensure they are within ~0.1v of each other. Insert each of the batteries into the holders at the bottom of the shell, noting the orientation (+ on the left and - on the right). Check that there is a solid connection between the battery terminals and the Main PCB battery tabs.
+
+<ImageCarousel step="portable-assembly/18650-install" />
 
 :::danger IMPORTANT: Battery Safety
-The orientation of the batteries is crucial, inserting them backwards can cause permanent damage to the RVL-PMS2 and the rest of the Xii-Boy Ultra. Connecting two batteries in parallel at drastically different voltages can cause a fire in the worst case scenario, and damage the battery capacity at best. If the batteries are not within ~0.1v of each other, charge one until it is equivalent.
+The orientation of the batteries is crucial, inserting them backwards can cause permanent damage to the RVL-PMS2 and the rest of the **Xii-Boy Ultra**. Connecting two batteries in parallel at drastically different voltages can cause a fire in the worst case scenario, and damage the battery capacity at best. If the batteries are not within ~0.1v of each other, charge one until it is equivalent.
 :::
 
-10. Apply thermal paste to the copper plate in two “X” shapes. One large “X” for Hollywood, and a smaller “X” for Broadway.
-11. Unlock the 50 Pin Xii-Flex Ultra ZIF connector. Insert the Xii-Flex Ultra into the ZIF connector and lock it.
-12. Insert the PicoLock power connector into the Main PCB and the Xii-Strip.
+10. Apply thermal paste to the copper plate in two `X` shapes. One large `X` for Hollywood, and a smaller `X` for Broadway.
+
+<ImageCarousel step="portable-assembly/thermal-paste-install" />
+
+11. Unlock the **50 Pin Xii-Flex Ultra ZIF connector**. Insert the **Xii-Flex Ultra** into the ZIF connector and lock it.
+
+<ImageCarousel step="portable-assembly/xii-flex-ultra-install" />
+
+12. Insert the **PicoLock power connector** into the **Main PCB** and the **Xii-Strip**.
 
 :::info
 This is not pictured, as it was added in a later revision. It replaces the pogo pins in the images.
 :::
 
-13. Fold the Wii over the copper plate and press down firmly to spread the thermal paste. Align the screw holes on the Wii with the three screw posts on the bottom shell. Use three silver `7.3mm` Phillips screws from the Wii’s motherboard cover ([https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575](https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575)) to fasten the trimmed Wii in place.
+13.  Fold the Wii over the copper plate and press down firmly to spread the thermal paste. Align the screw holes on the Wii with the three screw posts on the bottom shell. Use three silver `7.3mm` Phillips screws from the Wii’s motherboard cover ([https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575](https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575)) to fasten the trimmed Wii in place.
+
+<ImageCarousel step="portable-assembly/wii-board-install" />
+
 14. Unlock the 40 Pin Main PCB ZIF connector on the Xii-DD PCB. Insert the 40 Pin Shielded FFC and lock the connector.
+
+<ImageCarousel step="portable-assembly/xii-dd-shielded-zif" />
+
 15. Close both halves and connect them with six `6mm` Phillips screws. The screwholes in the bottom shell are recessed, so a screwdriver with a long tip is required.
 
 **The Xii-Boy Ultra Assembly is now complete. Proceed to RVLoader setup.**

@@ -12,7 +12,7 @@ hero:
       text: Start the Guide
       link: /introduction
     - theme: alt
-      text: Purchase a Kit
+      text: Purchase a Kit (Coming Soon!)
       link: https://github.com/Xenii1642/Xii-Boy-Ultra
 ---
 <div class="browse-pages-title">✨ Or Explore More ✨</div>

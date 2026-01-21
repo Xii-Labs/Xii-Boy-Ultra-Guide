@@ -63,6 +63,10 @@ Capacitor `C4` next to the `1.8v LDO` needs to be removed in order for the **Xii
 
 ## Testing a Trimmed Board  
 
+:::danger HERE BE DRAGONS
+This section is incomplete and trim test website is not live. Use this for reference only.
+:::
+
 Perform essential tests before powering the trimmed Wii to ensure functionality. Confirming functionality now saves troubleshooting headaches later.  
 
 1. Test resistances of voltage rails using a multimeter set to resistance (Ω) mode. Set the multimeter to 20kΩ if it does not have auto-ranging. Navigate to the trim test website and follow instructions. Place the black probe on Ground (GND) and the red probe on each voltage rail. The site will identify incorrect rail resistances.  

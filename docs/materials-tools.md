@@ -1,5 +1,7 @@
 # Materials and Tools
 
+![lab photo](assets/materials-tools/header/lab.webp)
+
 To make the **Xii-Boy Ultra** build as simple as possible, we’ve organized the required materials and tools into an easily accessible list. Amazon links are provided whenever possible, but note that cheaper prices may be avaiable at other retailers such as Aliexpress.
 
 ## Soldering Tools
