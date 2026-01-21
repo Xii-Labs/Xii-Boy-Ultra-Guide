@@ -83,37 +83,87 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 3.  Slowly rotate the screen toward the front of the shell. At the very end, a small amount of force may be required to set the display in place. A small lip surrounds the indent, and you may hear a soft “click” as the display snaps into place.
 
-:::info
+:::info NOTICE
 After the click, the display will be held in by friction and the lip. It is not recommended to remove the display more than once or twice, as this can cause issues with the fitting.
 :::
 
 ### Installing the Xii-DD PCB (XBU-002)
 
 1.  Flip the top shell so the external side is facing down. Then, slide the Xii-DD PCB at a `20°` angle on the back of the display until it pushes against the top of the shell and underneath the notch. Fasten the Xii-DD PCB in place using two `4mm` Phillips screws.
-2.  Open the slider ZIF connector on the RVL-DD. This ZIF is different from all others used in the XBU. To unlock it, pull directly away from the connector on both sides using a small amount of force. **Do NOT pull up on it at all.** The connector is fully unlocked when it extends out `1-2mm` and is even across both sides.
-3.  Fold the display’s cable over the bottom edge of the Xii-DD PCB. Align it properly and carefully push the cable into the unlocked ZIF connector. Ensure it is pushed in all the way, as it can get stuck easily. Refer to the photos. Then, lock the ZIF connector.
 
-### Buttons
+<ImageCarousel step="portable-assembly/xii-dd-place" />
+
+2.  Open the slider ZIF connector on the RVL-DD. This ZIF is different from all others used in the XBU. To unlock it, pull directly away from the connector on both sides using a small amount of force. **Do NOT pull up on it at all.** The connector is fully unlocked when it extends out `1-2mm` and is even across both sides.
+
+3. Fold the 3.5" display’s cable over the bottom edge of the Xii-DD PCB. Align it properly and carefully push the cable into the unlocked ZIF connector. Ensure it is pushed in all the way, as it can get stuck easily. Then, lock the ZIF connector.
+
+<ImageCarousel step="portable-assembly/xii-dd-zif" />
+
+### Face Buttons
 
 1.  Place the DS lite buttons and D-pad in their respective slots. The buttons have notches to ensure correct orientation. The D-pad, however, can be installed in any orientation.
-2.  Trim the membrane for the buttons. This is required, and is done to create a tighter fit with the shell. The square in the middle of the membrane can be completely cut out using an X-Acto knife with a `#2` blade.
+
+<ImageCarousel step="portable-assembly/face-buttons" />
+
+2.  Trim the membrane for the buttons. This is a required step - it is done to create a tighter fit with the shell. The square in the middle of the membrane can be completely cut out using an X-Acto knife with a `#2` blade.
+
+<ImageCarousel step="portable-assembly/membrane-cut" />
+
 3.  Place the membranes for the buttons and D-pad. Then, place the center Start button. If the button's membrane does not sit flat, consider trimming the square a bit wider.
+
+<ImageCarousel step="portable-assembly/membrane-place" />
 
 ### Preparing the Controller PCB (XBU-003)
 
+:::danger Note
+The order of the following steps is not optimal and needs to be updated. Use as reference only.
+:::
+
 1.  Take the Left and Right Speakers and connect them at the bottom of the PCB. They push directly in and will stay snug there.
-2.  Connect the modified rumble motor to the picolock connector at the bottom of the Controller PCB. The picolock connector is keyed and will only insert in one direction. Do not force it. Take note of the polarity - the red wire on the rumble motor connects to the “+” pad, and the blue to the “-” pad.
-3.  Unlock the ZIF connector on the Controller PCB labeled “To Xii-DD”. Insert an 18 pin FFC with the blue stiffener facing up. Then, lock the connector. To ensure it has been inserted completely, give a very small tug to the cable. If it releases easily, repeat the process.
-4.  Apply a small amount of flux to the “LRA” pads on the GC+2.0 PCB. Then, jump the two pads together by creating a solder bridge. Be careful not to damage any surrounding components.
+
+<ImageCarousel step="portable-assembly/speaker-connect" />
+
+2.  Connect the rumble motor to the picolock connector at the bottom of the Controller PCB. The picolock connector is keyed and will only insert in one direction. Do not force it. Take note of the polarity: **The red wire on the rumble motor connects to the `+` pad, and the blue to the `-` pad.**
+
+<ImageCarousel step="portable-assembly/rumble-connect" />
+
+1.  Unlock the ZIF connector on the Controller PCB labeled `To Xii-DD`. Insert an 18 pin FFC with the blue stiffener facing up. Then, lock the connector.
+
+<ImageCarousel step="portable-assembly/controller-pcb-zif" />
+
+4.  Apply a small amount of flux to the `LRA` pads on the **GC+2.0 PCB**. Then, jump the two pads together by creating a solder bridge. Be careful not to damage any surrounding components.
+
+<ImageCarousel step="portable-assembly/lra-jump" />
+
+<!-- TODO: NEW PHOTOS -->
 
 ### Finishing Top Half Installation
 
-1.  Line up the completed Controller PCB with its screw posts. Ensure the cables for the rumble motor and speakers do not get caught underneath the PCB. Then, screw the board into place. There are ten `4mm` Phillips screws, and one `5mm` screw. The `5mm` screw must be made by cutting or sanding the tip of a `6mm` screw. The `5mm` screw goes on the bottom right screw hole on the GC+2.0 PCB.
+1.  Line up the completed Controller PCB with its screw posts. Ensure the cables for the rumble motor and speakers do not get caught underneath the PCB. Then, screw the board into place using eleven `4mm` Phillips screws.
+
+<!-- and one `5mm` screw. The `5mm` screw must be made by cutting or sanding the tip of a `6mm` screw. The `5mm` screw goes on the bottom right screw hole on the GC+2.0 PCB. -->
+
+<ImageCarousel step="portable-assembly/controller-pcb-screw" />
+
 2.  On the Xii-DD PCB, unlock the 18 pin ZIF connector near the top and insert the FFC coming from the Controller PCB. Lock the ZIF connector when finished.
+
+<ImageCarousel step="portable-assembly/xii-dd-controller-zif" />
+
 3.  Remove the sticker covering the adhesive backing on the rumble motor. Then, set the motor into its slot and tuck the wires under the PCB.
-4.  Cut two `19mm x 9mm` rectangles out of the metal mesh. Place one into each speaker cutout. After that, place each speaker in its slot, and tuck the excess wire in between the rumble slot and the PCB.
-5.  Place the 3D printed bracket over the speakers, rumble motor, and screw posts. Secure the bracket with four `4mm` Phillips screws.
+
+<ImageCarousel step="portable-assembly/rumble-place" />
+
+4.  Place a `19mm x 9mm` speaker mesh into each speaker cutout. After that, place each speaker in its slot, and tuck the excess wire in between the rumble slot and the PCB.
+
+<ImageCarousel step="portable-assembly/speaker-mesh" />
+
+5.  Place the retention bracket over the speakers, rumble motor, and screw posts. Secure the bracket with four `4mm` Phillips screws.
+
+<ImageCarousel step="portable-assembly/retention-bracket" />
+
 6.  Connect two Joy-Con Joysticks to their ZIF connectors. Then, place the joysticks over the screw posts and secure them with two `4mm` Phillips screws each. The left joystick (closest to the RVL-DD) will need to have its cable folded in order to fit.
+
+<ImageCarousel step="portable-assembly/joystick-install" />
 
 ---
 
