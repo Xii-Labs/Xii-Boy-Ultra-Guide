@@ -50,6 +50,7 @@ Ensure the Tri-Point (Y0) screwdriver has a long shaft to reach recessed screws 
 - **24 AWG Wire Set:** [Wire Set](https://a.co/d/bMAj78b)  
 - **MicroSD to USB Adapter:** [MicroSD Adapter](https://a.co/d/g2JveM3)  
 - **Clear Tape:**  [Scotch Magic Tape](https://a.co/d/2b0gQCw)
+- **91% Isopropyl Alcohol.** [91% IPA](https://a.co/d/0dYH3O8)
 - **Cotton Swabs / Q-Tips:** [Cotton Swabs](https://a.co/d/7KwuABb)
 
 

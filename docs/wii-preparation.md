@@ -70,7 +70,9 @@ The MicroSD card must be formatted as FAT32 in MBR with a 32k cluster size in or
 
 <ImageCarousel step="wii-preparation/rvloader-install" />
 
-**RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed.
+**RVLoader** is now successfully installed, and the Wii is ready to be disassembled and trimmed. Note that the Wii will now autoboot into the RVLoader menu. To return to the Wii menu, use the `C-Stick` and hold toward the Wii icon.
+
+<!-- TODO: Update instructions above on navigating rvloader!! -->
 
 ## Dumping Wii & GameCube Games
 

@@ -4,36 +4,52 @@ The reason Wii portables of this size are possible is because of motherboard tri
 
 ## Trimming Diagrams
 
-These diagrams contain annotated images of the bare Wii motherboard. Use it as a reference when drawing trim lines, removing components, or checking important traces. To view the diagrams in full quality, right click and open each image in a new tab.
+These diagrams contain annotated images of the bare Wii motherboard. Use them as a reference when drawing trim lines, removing components, or checking important traces.
 
 ![alt text](<XII-BOY ULTRA TRIM DIAGRAM - BOTTOM.png>)
+[(View Image in Full Quality)](https://xbu-guide.me/assets/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.CGYBaFES.png)
 
 
 ## Trimming Steps  
 
 1. Disassemble the console down to the bare motherboard. There are many great tutorials out there; the recommended one is [by iFixit](https://www.ifixit.com/Guide/Nintendo+Wii+Motherboard+Replacement/3460).
-2. Use a pair of pliers and a soldering iron to remove the unnecessary large capacitors and inductors that lie near the trim line. They are highlighted Pink in the Top and Bottom diagrams.  
-3. Use a permanent marker and ruler to trace the trim outline on both the top and bottom of the board.  
-4. Apply masking tape over the **GPU** (Hollywood) and **CPU** (Broadway), keeping it flush with the board. This prevents copper shards from getting underneath the components while trimming.  
-5. Prepare for trimming: Attach the diamond cutting wheel to the Dremel and fasten it tightly. Move to a well-ventilated area and put on a **mask, safety glasses,** and **gloves**. **A respirator rated for fine particulate matter (P100 or N95 minimum) is required.**
+
+<ImageCarousel step="wii-trimming/motherboard" />
+
+2. Use a pair of pliers to remove the large electrolytic capacitors on the top side of the board. They are highlighted Pink in the Top diagram.  
+
+<ImageCarousel step="wii-trimming/video-caps" />
+
+3. Use a pair of pliers to remove the large inductor (`L4`) located on the top side of the board, beneath the RAM. 
+
+<ImageCarousel step="wii-trimming/l4-inductor" />
+
+4. Use a permanent marker and ruler to trace the trim outline on both the top and bottom of the board. 
+
+<ImageCarousel step="wii-trimming/trim-line" />
+
+5. Apply masking tape over the **GPU** (Hollywood) and **CPU** (Broadway), keeping it flush with the board. This prevents copper shards from getting underneath the components while trimming.
+
+6. Prepare for trimming: Attach the **diamond cutting wheel** to the Dremel and **fasten it tightly**. Move to a well-ventilated area and put on a **mask, safety glasses,** and **gloves**. **A respirator rated for fine particulate matter (P100 or N95 minimum) is required.**
 
 :::danger Important
 **Cutting PCBs releases dust and shards. These micro-plastic dust clouds and copper shards can cause permanent lung damage. Equip proper safety gear to protect your eyes and lungs.**
 :::
 
-6. Begin trimming slowly, cutting slightly outside the trim line as the Wii will need to be sanded afterwards. If a component on one side blocks the Dremel, switch sides. Be extremely cautious of critical components (Red) and critical ICs (White) in the diagram.  
+7. Begin trimming slowly, cutting slightly outside the trim line as the Wii will need to be sanded afterwards. If a component on one side blocks the Dremel, switch sides. Be extremely cautious of Critical Passives (Red) and Core ICs (White) in the diagram.  
+
+<ImageCarousel step="wii-trimming/begin-trim" />
 
 :::tip Note
 Do NOT apply force with the Dremel. The wheel does the cutting; you are only guiding it. Force can cause it to skip and hit critical components.
 :::
 
-7. Once trimming is complete, sand the edges with progressively finer grits of sandpaper:  
-**180 → 200 → 300 → 400 → 600 → 800 → 1000 grit** (anything higher than 1000 grit is optional).  
-Low grits remove more of the board; high grits remove small amounts and create a smooth finish. Sand away burs or extrusions. At 1000 grit, each of the four layers should be distinct and the sides smooth.  
+8. Once trimming is complete, sand the edges with progressively finer grits of sandpaper:  
+**180 → 200 → 300 → 400 → 600 → 800 → 1000 grit** (anything higher than 1000 grit is optional). Low grits remove more of the board; high grits remove small amounts and create a smooth finish. Sand away burs or extrusions. At 1000 grit, each of the four layers should be distinct and the sides smooth.  
 
 <ImageCarousel step="wii-trimming/trimming-steps" />
 
-1. Remove tape and clean the board. Trimming is finished!  
+9. Remove tape and clean the board. Trimming is finished!  
 
 ## 1.8V LDO Removal
 
@@ -43,7 +59,7 @@ The trimmed Wii motherboard contains a `1.8v LDO` (Voltage regulator) which need
 2. Use a soldering iron and flood the pad and pins with excess solder. The pins are okay to connect to each other here since no power is being applied.
 3. Set a hot air gun/station to `425°C at 80% airflow` and use a medium or large nozzle. Aim the nozzle at the `1.8v LDO` and keep it only a few cm away. Move the hot air gun around in a circular motion over the part, and continue until all the solder is molten. 
 4. Use a pair of tweezers to slide the `1.8v LDO` off the board. **Do not apply excessive force**, as the solder may not be completely molten and traces would rip. 
-5. Dispose of the `1.8v LDO` and clean the area using a **Q-tip** and **99% isopropyl alcohol**.
+5. Dispose of the `1.8v LDO` and clean the area using a **Q-tip** and **91% isopropyl alcohol**.
 
 <ImageCarousel step="wii-trimming/1v8ldo" />
 
@@ -57,7 +73,7 @@ Capacitor `C4` next to the `1.8v LDO` needs to be removed in order for the **Xii
 
 1. Push a large soldering iron tip against the side of the capacitor and stay there until the capcitor heats up.
 2. The capcaitor is small, so this should only take a few seconds. After it is loose, push it off the board and dispose of it.
-3. Clean the area using a **Q-tip** and **99% isopropyl alcohol**.
+3. Clean the area using a **Q-tip** and **91% isopropyl alcohol**.
 
 <ImageCarousel step="wii-trimming/c4" />
 
