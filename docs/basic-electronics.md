@@ -46,13 +46,13 @@ A trace is a thin, conductive path on a PCB that allows electrical signals to tr
 
 ![alt text](images/basic-electronics/vias.png)
 
-A via is a conductive pathway that allows electrical connections between different layers of a PCB. It acts like a trace that passes through one or more layers, making it possible for signals to travel between components on different levels of the board. For example, in a multi-layer PCB, a via connects a trace on the top layer to another trace on the bottom layer allowing components on different layers to connect.
+A via is a metal plated hole drilled through the PCB that provides a conductive pathway allowing electrical connections between different layers of a PCB. It acts like a trace that passes through one or more layers, making it possible for signals to travel between components on different levels of the board. For example, in a multi layer PCB, a via connects a trace on the top layer to another trace on the bottom layer, allowing components on different layers to connect.
 
 ### What is Silkscreen?
 
 ![alt text](images/basic-electronics/silkscreen.png)
 
-Silkscreen is the layer on a PCB that contains printed labels, symbols, and markings to help identify components and other important information. It is usually printed in white (but can be other colors) on the top and/or bottom of the board. Silkscreen markings include part labels like `R` for resistors or `C` for capacitors, polarity indicators, logos, and other helpful guides for assembling or troubleshooting the PCB.
+Silkscreen is the layer on a PCB that contains printed ink labels, symbols, and markings to help identify components and other important information. It is usually printed in white (but can be other colors) on the top and/or bottom of the board. Silkscreen markings include part labels like `R` for resistors or `C` for capacitors, polarity indicators, logos, and other helpful guides for assembling or troubleshooting the PCB.
 
 ### What is a Capacitor?
 

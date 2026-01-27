@@ -234,7 +234,7 @@ The ribbon cables on the triggers will need to be bent in order to fit properly.
 
 ### Upper Layer
 
-1.  Insert the **Main PCB** and into the shell at a `45°` angle. The USB-C port and Headphone Jack will slot nicely into place. While lowering the PCB, ensure the Trigger PCB flex cable and Fan PicoLock (not pictured) pass into the Upper Layer.
+1.  Insert the **Main PCB** into the shell at a `45°` angle. The USB-C port and Headphone Jack will slot nicely into place. While lowering the PCB, ensure the Trigger PCB flex cable and Fan PicoLock (not pictured) pass into the Upper Layer.
 
 <ImageCarousel step="portable-assembly/main-pcb-place" />
 
