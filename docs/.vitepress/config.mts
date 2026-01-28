@@ -33,6 +33,7 @@ export default defineConfig({
       ]},
       { text: 'The Build', items: [
         { text: 'Wii Trimming', link: '/wii-trimming' },
+        { text: 'Xii-Flex Install', link: '/xii-flex-install' },
         { text: 'Castellated Module Install', link: '/castellated-module-install' },
         { text: 'Portable Assembly', link: '/portable-assembly' },
         { text: 'RVLoader Setup', link: '/rvloader-setup' }
