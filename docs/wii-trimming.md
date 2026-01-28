@@ -7,10 +7,13 @@ The reason Wii portables of this size are possible is because of motherboard tri
 These diagrams contain annotated images of the bare Wii motherboard. Use them as a reference when drawing trim lines, removing components, or checking important traces.
 
 ![alt text](<XII-BOY ULTRA TRIM DIAGRAM - BOTTOM.png>)
-[(View Image in Full Quality)](https://xbu-guide.me/assets/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.CGYBaFES.png)
+[(View Image in a New Tab)](https://xbu-guide.me/assets/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.CGYBaFES.png)
 
 ![alt text](WII-TRIM-DIAGRAM-TOP.png)
-[(View Image in Full Quality)](https://xbu-guide.me/assets/.png)
+[(View Image in a New Tab)](https://xbu-guide.me/assets/WII-TRIM-DIAGRAM-TOP.BOa12yLm.png)
+
+![alt text](WII-VOLTAGE-DIAGRAM-TOP.png)
+[(View Image in a New Tab)](https://xbu-guide.me/assets/WII-TRIM-DIAGRAM-TOP.BOa12yLm.png)
 
 ## Trimming Steps  
 
