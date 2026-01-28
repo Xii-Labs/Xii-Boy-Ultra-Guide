@@ -1,6 +1,6 @@
 # Wii Trimming 
 
-The reason Wii portables of this size are possible is because of motherboard trimming. The Wii is the perfect trim candidate. In almost any computer system, there are a few crucial components: the **CPU, GPU, RAM,** and **NAND**. All four of those components are next to each other on the Wii, and they are what define our trim lines. The **Xii-Boy Ultra** uses a **Standard Trim**, which just means the trim goes around the components without relocating them. The **Standard Trim** is one of the simplest, but that doesn’t mean it’s easy. Go slow and follow each step carefully. Cutting a critical component or trace can render the Wii inoperable.
+The reason Wii portables of this size are possible is because of motherboard trimming. The Wii is the perfect trim candidate. In almost any computer system, there are a few crucial components: the **CPU, GPU, RAM,** and **NAND**. All four of those components sit next to each other on the Wii, and they are what define our trim lines. The **Xii-Boy Ultra** uses a trim which just goes around the core components without relocating them. This trim is one of the simplest, but that doesn’t mean it’s easy. Go slow and follow each step carefully. Cutting a critical component or trace can render the Wii inoperable.
 
 ## Trimming Diagrams
 
@@ -9,6 +9,8 @@ These diagrams contain annotated images of the bare Wii motherboard. Use them as
 ![alt text](<XII-BOY ULTRA TRIM DIAGRAM - BOTTOM.png>)
 [(View Image in Full Quality)](https://xbu-guide.me/assets/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.CGYBaFES.png)
 
+![alt text](WII-TRIM-DIAGRAM-TOP.png)
+[(View Image in Full Quality)](https://xbu-guide.me/assets/.png)
 
 ## Trimming Steps  
 

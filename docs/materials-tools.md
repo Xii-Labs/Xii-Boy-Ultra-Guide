@@ -12,7 +12,7 @@ To make the **Xii-Boy Ultra** build as simple as possible, we’ve organized the
 - **Solder (Lead-Free Alternative):** [Kester 275 K100LD 0.020"](https://a.co/d/dZMrosN) 
 - **Flux:** [Stirri V2-TF](https://a.co/d/fC5cPg5)  
 - **Flux (Alternative):** [Chip Quik SMD491](https://a.co/d/aVsHH8v)  
-- **Solder Braid:** [MG Chemicals Fine Braid Super Wick](https://a.co/d/gPIm9nL)  
+- **Solder Braid:** [CHEMTRONICS 80-3-5 BRAID](https://a.co/d/e1kGg4Q)  
 - **Microscope:** [Amscope 7x-45x](https://www.ebay.com/itm/140938262240)  
 - **Magnifying Lamp (Microscope Alternative):** [2.25x Light Magnifier](https://a.co/d/9xPGy3s)  
 - **Hot Air Gun (Optional):** [858D Hot Air Station](https://a.co/d/hCR4eZt)  
