@@ -2,48 +2,7 @@
 
 <!-- TODO: Add time/difficulty ratings and a description -->
 
-## Parts Preparation
 
-Some off-the-shelf parts used on the **Xii-Boy Ultra** will need to be modified before they can work properly in the build.
-
-### Joystick Triggers
-
-:::danger Important
-This trigger mod is **only** compatible with a specific revision of 3rd party joysticks. **OEM and Hall sticks are not compatible and will not work**. Use the included joysticks in the **Xii-Boy Ultra Kit**.
-:::
-
-1.  Retrieve a joystick from **Bag G2**. Grip the joystick head with pliers and carefully rotate it `90°` counterclockwise. Keep the pliers as flat as possible. The stick should detach from the mechanism. Dispose of the joystick head. Sometimes, the stick may break during removal, leaving a bit of plastic inside the base of the mechanism. This is not a major issue, the plastic can be removed later, but it can be quite difficult. 
-
-<ImageCarousel step="portable-assembly/joycon-trigger-mod-break" />
-
-2.  Remove the back metal cover from the joystick assembly. There are four clips, use an **X-ACTO blade** to slightly bend the three small clips. The metal plate will then detach. Be careful not to lose any small parts.
-
-<ImageCarousel step="portable-assembly/joycon-trigger-mod-open" />
-
-3.  On the FPC, carefully peel off the button using an **X-ACTO blade**. The button consists of an adhesive sticker with a small metal dome.
-
-<ImageCarousel step="portable-assembly/joycon-trigger-mod-button" />
-
-4.  If part of the joystick head broke inside the mechanism, remove the small white mechanical parts from the top section to clear the area. Then, use two pliers to remove the remaining part of the plastic head.
-
-<ImageCarousel step="portable-assembly/joycon-trigger-mod-plastic" />
-
-5.  Reassemble the joystick in the same way as before. Then install the 3D printed trigger by pressing the trigger down firmly from the top until it clicks into place.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe
-    src="https://www.youtube.com/embed/MpkQuF2u9gk"
-    title="Joycon Trigger Mod"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
-
-6.  Test the trigger to ensure it moves smoothly. If the movement is rough, remove the 3D printed trigger. Then, use a lighter for a moment by the bottom of the trigger. Insert it and repeat until the mechanism feels nice.
-
-7.  Repeat the process for the second trigger.
 
 <!-- ### 2. Brushless Fan
 
@@ -169,6 +128,45 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 ## Bottom Half Assembly
 
+### Joystick Trigger Modification
+
+:::danger Important
+This trigger mod is **only** compatible with a specific revision of 3rd party joysticks. **OEM and Hall sticks are not compatible and will not work**. Use the included joysticks in the **Xii-Boy Ultra Kit**.
+:::
+
+1.  Retrieve a joystick from **Bag G2**. Grip the joystick head with pliers and carefully rotate it `90°` counterclockwise. Keep the pliers as flat as possible. The stick should detach from the mechanism. Dispose of the joystick head. Sometimes, the stick may break during removal, leaving a bit of plastic inside the base of the mechanism. This is not a major issue, the plastic can be removed later, but it can be quite difficult. 
+
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-break" />
+
+2.  Remove the back metal cover from the joystick assembly. There are four clips, use an **X-ACTO blade** to slightly bend the three small clips. The metal plate will then detach. Be careful not to lose any small parts.
+
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-open" />
+
+3.  On the FPC, carefully peel off the button using an **X-ACTO blade**. The button consists of an adhesive sticker with a small metal dome.
+
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-button" />
+
+4.  If part of the joystick head broke inside the mechanism, remove the small white mechanical parts from the top section to clear the area. Then, use two pliers to remove the remaining part of the plastic head.
+
+<ImageCarousel step="portable-assembly/joycon-trigger-mod-plastic" />
+
+5.  Reassemble the joystick in the same way as before. Then install the 3D printed trigger by pressing the trigger down firmly from the top until it clicks into place.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/MpkQuF2u9gk"
+    title="Joycon Trigger Mod"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+6.  Test the trigger to ensure it moves smoothly. If the movement is rough, remove the 3D printed trigger. Then, use a lighter for a moment by the bottom of the trigger. Insert it and repeat until the mechanism feels nice.
+
+7.  Repeat the process for the second trigger.
+
 ### Lower Layer
 
 1.  Install the heatsink and fan. The heatsink should be placed in the orientation that aligns the arches with the arches on the shell. The fan must be installed so that the cable faces the USB-C port and the top of the shell. There is a small notch in the shell that allows the cables to pass through.
@@ -179,13 +177,14 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <ImageCarousel step="portable-assembly/rz-lz-buttons" />
 
+:::danger Important
+GUIDE NEEDS UPDATED - PLACE WIFI ANTENNAS (STEP 8) BEFORE FASTENING THE TRIGGER PCB BOARD
+:::
+
+
 3.  Connect the two modified Joy-Con Joystick Triggers to the Trigger PCB ZIF connectors.
 
 <ImageCarousel step="portable-assembly/triggers-connect" />
-
-:::danger Important
-GUIDE NEEDS UPDATED - PLACE WIFI ANTENNAS (STEP 8)  BEFORE FASTENING THIS BOARD
-:::
 
 4.  Align the Trigger PCB and triggers with their respective screw posts. Fasten the Trigger PCB with five `4mm` Phillips screws, and fasten the triggers with two `4mm` Phillips screws each.
 
