@@ -1,6 +1,6 @@
 # Microsoldering Methods
 
-The **Xii-Boy Ultra** requires advanced soldering methods in order to complete the build. It is highly reccomended to practice the follwoing methods on a junk PCB before bringing the iron near the Wii or other custom PCBs. 
+The **Xii-Boy Ultra** requires advanced soldering methods in order to complete the build. It is highly reccomended to practice the following methods on a junk PCB before bringing the iron near the Wii or other custom PCBs. 
 
 ## General Soldering
 
