@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import ImageCarousel from './ImageCarousel.vue'
+import WiiResistanceChecker from './WiiResistanceChecker.vue'
 import Layout from './Layout.vue'
 import './custom.css'
 import './dark.css'
@@ -10,5 +11,6 @@ export default {
 
   enhanceApp({ app }) {
     app.component('ImageCarousel', ImageCarousel)
+    app.component('WiiResistanceChecker', WiiResistanceChecker)
   }
 }

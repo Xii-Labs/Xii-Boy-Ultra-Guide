@@ -84,19 +84,17 @@ Capacitor `C4` next to the `1.8v LDO` needs to be removed in order for the **Xii
 
 ## Testing a Trimmed Board  
 
-:::danger HERE BE DRAGONS
-This section is incomplete and trim test website is not live. Use this for reference only.
-:::
-
 Perform essential tests before powering the trimmed Wii to ensure functionality. Confirming functionality now saves troubleshooting headaches later.  
 
-1. Test resistances of voltage rails using a multimeter set to resistance (Ω) mode. Set the multimeter to 20kΩ if it does not have auto-ranging. Navigate to the trim test website and follow instructions. Place the black probe on Ground (GND) and the red probe on each voltage rail. The site will identify incorrect rail resistances.  
-2. Compare readings with the attached image. If any are significantly lower, sand edges at a high grit again and repeat Step 1.  
-3. When resistances are correct, connect the RVL-PMS2 to the Wii. Solder a wire from each voltage pad on the RVL-PMS2 to the respective pad on the Wii (e.g., 3.3v → 3.3v). Use 24 AWG wire and keep wires short.  
-4. Connect outlined AVE pads on the Wii to a stripped RCA cable. The original Wii composite cable and a trimmed video connector can work in a pinch. Connect the cable to a component-compatible display.  
+<WiiResistanceChecker />
+
+Once your resistances are correct and your board passes testing, you can proceed:
+
+1. Connect the RVL-PMS2 to the Wii. Solder a wire from each voltage pad on the RVL-PMS2 to the respective pad on the Wii (e.g., 3.3v → 3.3v). Use 24 AWG wire and keep wires short.  
+2. Connect outlined AVE pads on the Wii to a stripped RCA cable. The original Wii composite cable and a trimmed video connector can work in a pinch. Connect the cable to a component-compatible display.  
 
 ![alt text](composite-points-old.png)
 
-5. Connect a battery to the B+ and B- pads on the RVL-PMS2. Short the BTN pad with GND for three seconds using a button or tweezers to activate the RVL-PMS2 and output all voltage rails.  
-6. The Wii will display an error on screen (good error, confirming trim and RVL-PMS2 are working).  
-7. Desolder all wires from both the Wii and RVL-PMS2. 
+3. Connect a battery to the 'B+' and 'B-' pads on the RVL-PMS2. Short the 'BTN' pad with 'GND' for three seconds using a button or tweezers to activate the RVL-PMS2 and output all voltage rails.  
+4. The Wii will display an error on screen (good error, confirming trim and RVL-PMS2 are working).  
+5. Desolder all wires from both the Wii and RVL-PMS2.
