@@ -17,7 +17,7 @@ There are a few parts that need purchased separately. The most notable are:
 
 - **4-layer Wii Motherboard**
 - **Wii Wi-Fi and Bluetooth Modules**
-- **4 Layer Technologies Modules - [RVL-PMS2](https://4layertech.com/collections/modular-line/products/rvl-pms-2), [RVL-DD](https://4layertech.com/products/rvl-dd), [RVL-AMP](https://4layertech.com/products/rvl-amp?variant=43191030153451), [PMS-PD 3](https://4layertech.com/products/pms-pd-3), and [GC+2.0](https://4layertech.com/products/gc-2)**
+- **Castellated Modules - [RVL-PMS2](https://4layertech.com/collections/modular-line/products/rvl-pms-2), [RVL-DD](https://4layertech.com/products/rvl-dd), [RVL-AMP](https://4layertech.com/products/rvl-amp?variant=43191030153451), [PMS-PD 3](https://4layertech.com/products/pms-pd-3), and [GC+2.0](https://4layertech.com/products/gc-2)**
 - **[Two 3.7V 18650 Li-Ion Batteries](https://liionwholesale.com/products/vapcell-n40-18650-10a-flat-top-4000mah-battery-genuine?srsltid=AfmBOor21e7UFz9PdcsTg40_RzTT6Ku3JZvD6_bks11D7F_pFHPyyYmp&variant=40592451371077)**
 - **[A MicroSD Card (512GB Reccommended)](https://a.co/d/eyZ4Zkw)**
 

@@ -169,7 +169,7 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 ### Lower Layer
 
-1.  Install the heatsink and fan. The heatsink should be placed in the orientation that aligns the arches with the arches on the shell. The fan must be installed so that the cable faces the USB-C port and the top of the shell. There is a small notch in the shell that allows the cables to pass through.
+1.  Install the heatsink and fan. **Align the heatsink so its fins and arches match the shell’s arches.** Position the fan with the cable facing the USB-C port and the top of the shell. Route the cable through the small notch in the shell.
 
 <ImageCarousel step="portable-assembly/heatsink-fan-install" />
 
