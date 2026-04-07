@@ -95,7 +95,7 @@ onMounted(() => {
       >
         <SplideSlide v-for="image in resolvedImages" :key="image.src">
           <a :href="image.src" @click.prevent="openLightbox">
-            <img :src="image.src" :alt="image.alt">
+            <img :src="image.src" :alt="image.alt" loading="lazy" decoding="async">
           </a>
         </SplideSlide>
       </Splide>
@@ -106,6 +106,8 @@ onMounted(() => {
           :key="image.src"
           :src="image.src"
           :alt="image.alt"
+          loading="lazy"
+          decoding="async"
           class="thumbnail-image"
           :class="{ 'is-active': index === activeIndex }"
           tabindex="0"

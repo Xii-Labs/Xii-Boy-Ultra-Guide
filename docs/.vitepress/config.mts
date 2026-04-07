@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig({
   title: 'Xii-Boy Ultra Guide',
@@ -70,5 +71,10 @@ export default defineConfig({
       message: '<a href="https://github.com/Bryceshaw06/Xii-Boy-Ultra-Guide">Released under the GPLv3 License.</a>'
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Xenii1642/Xii-Boy-Ultra' }]
+  },
+  vite: {
+    plugins: [
+      ViteImageOptimizer({})
+    ]
   }
 })
