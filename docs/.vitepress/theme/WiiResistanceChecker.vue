@@ -35,6 +35,13 @@ function handleResult(status) {
   })
   currentIndex.value++
 }
+
+function goBack() {
+  if (currentIndex.value > 0) {
+    currentIndex.value--
+    results.value.pop()
+  }
+}
 </script>
 
 <template>
@@ -51,38 +58,46 @@ function handleResult(status) {
     <div v-else-if="currentIndex < testData.measurements.length" class="interactive-screen">
       <div class="test-card">
         <h4 class="test-header">Measure <code>{{ currentTest.com }}</code> to <code>{{ currentTest.volt }}</code></h4>
-        
+
         <div class="instruction-box">
           <p>Place the <strong>COM (Black) probe</strong> on point <code>{{ currentTest.com }}</code></p>
           <p>Place the <strong>+ (Red) probe</strong> on point <code>{{ currentTest.volt }}</code></p>
         </div>
-        
+
         <div class="target-reading">
           <p class="expected-value">Expected Range:</p>
           <p class="expected-range vp-doc"><strong>{{ currentTest.range }}</strong></p>
         </div>
 
         <div class="actions">
-          <button class="btn btn-fail" @click="handleResult('Fail')">✗ Fail (0Ω Short)</button>
+          <button class="btn btn-fail" @click="handleResult('Fail')">✗ Fail (0Ω-15Ω Short)</button>
           <button class="btn btn-pass" @click="handleResult('Pass')">✓ Pass (In Range)</button>
         </div>
 
         <div class="progress-bar-container">
-          <div class="progress-bar" :style="{ width: ((currentIndex) / testData.measurements.length * 100) + '%' }"></div>
+          <div class="progress-bar" :style="{ width: ((currentIndex) / testData.measurements.length * 100) + '%' }">
+          </div>
         </div>
-        <p class="step-indicator">Step {{ currentIndex + 1 }} of {{ testData.measurements.length }}</p>
+        <div class="step-footer">
+          <div class="footer-side">
+            <button type="button" v-if="currentIndex > 0" class="back-link" @click="goBack">← Back</button>
+          </div>
+          <p class="step-indicator">Step {{ currentIndex + 1 }} of {{ testData.measurements.length }}</p>
+          <div class="footer-side"></div>
+        </div>
       </div>
     </div>
 
     <div v-else class="summary-screen">
-      
+
       <div v-if="hasFails" class="alert alert-fail">
-        <p><strong>Warning:</strong> Testing failed. Check for shorts or broken traces on the affected lines. Ensure all edges are thoroughly sanded and retest before proceeding.</p>
+        <p><strong>Warning:</strong> Testing failed. Check for shorts or broken traces on the affected lines. Ensure all
+          edges are thoroughly sanded and retest before proceeding.</p>
       </div>
       <div v-else class="alert alert-pass">
         <p><strong>Success:</strong> All tests passed. The trim is operating as expected.</p>
       </div>
-      
+
       <div class="table-container vp-doc">
         <table class="summary-table">
           <thead>
@@ -93,18 +108,21 @@ function handleResult(status) {
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(res, index) in results" :key="index" :class="{'row-fail': res.status !== 'Pass', 'row-pass': res.status === 'Pass'}">
+            <tr v-for="(res, index) in results" :key="index"
+              :class="{ 'row-fail': res.status !== 'Pass', 'row-pass': res.status === 'Pass' }">
               <td><code>{{ res.test.com }}</code> ➔ <code>{{ res.test.volt }}</code></td>
               <td>{{ res.test.range }}</td>
-              <td :class="{'text-success': res.status === 'Pass', 'text-fail': res.status !== 'Pass'}">
+              <td class="text-white">
                 <strong>{{ res.status === 'Pass' ? 'Pass' : 'Fail' }}</strong>
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      
-      <button @click="startTest" class="btn btn-primary restart-button">Restart Test</button>
+
+      <div class="summary-footer">
+        <button @click="startTest" class="btn btn-primary restart-button">Restart Test</button>
+      </div>
     </div>
   </div>
 </template>
@@ -174,7 +192,6 @@ function handleResult(status) {
 
 .restart-button {
   display: block;
-  margin: 1.5rem auto 0;
 }
 
 .btn:hover {
@@ -182,8 +199,13 @@ function handleResult(status) {
 }
 
 .btn-primary {
-  background-color: var(--vp-c-brand-1);
-  color: var(--vp-c-text-1) !important;
+  background-color: var(--custom-brand-button-bg);
+  color: var(--custom-brand-button-text) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--custom-brand-button-hover-bg);
+  opacity: 1;
 }
 
 .progress-bar-container {
@@ -200,12 +222,47 @@ function handleResult(status) {
   transition: width 0.3s ease;
 }
 
+.step-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.footer-side {
+  flex: 1;
+}
+
+.back-link {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+}
+
+.back-link:hover {
+  color: var(--vp-c-brand-1);
+}
+
 .step-indicator {
   font-size: 0.9rem;
   color: var(--vp-c-text-2);
-  margin-top: 0.75rem;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
+  flex: 2;
+}
+
+.summary-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
 }
 
 .test-card {
@@ -266,6 +323,7 @@ function handleResult(status) {
   background-color: var(--vp-c-success-1);
   color: var(--vp-c-neutral-inverse, white) !important;
 }
+
 .btn-fail {
   background-color: var(--vp-c-danger-1);
   color: var(--vp-c-neutral-inverse, white) !important;
@@ -302,7 +360,7 @@ function handleResult(status) {
 .summary-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.95rem; 
+  font-size: 0.95rem;
   display: table !important;
 }
 
@@ -334,11 +392,7 @@ function handleResult(status) {
   background-color: var(--vp-c-success-soft) !important;
 }
 
-.text-success {
-  color: var(--vp-c-success-text, #047857);
-}
-
-.text-fail {
-  color: var(--vp-c-danger-text, #b91c1c);
+.text-white {
+  color: white !important;
 }
 </style>
