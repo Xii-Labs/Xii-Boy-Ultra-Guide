@@ -19,15 +19,13 @@ const enableTransitions = () =>
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
-// Start both videos on mount so they stay perfectly in sync forever
 onMounted(() => {
   activeVideo.value = isDark.value ? 'dark' : 'light'
 
-  // Play BOTH videos immediately (they are muted + looping)
   lightVideoRef.value?.play().catch(() => { })
   darkVideoRef.value?.play().catch(() => { })
 })
-// The CSS opacity transition handles the smooth cross-fade.
+
 watch(isDark, (dark) => {
   activeVideo.value = dark ? 'dark' : 'light'
 })
@@ -54,16 +52,16 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   <Layout>
     <template #home-hero-image>
       <div class="video-container">
-        <!-- Light video – always preloaded and playing -->
-        <video ref="lightVideoRef" :class="{ 'is-active': activeVideo === 'light' }" preload="auto" class="hero-video"
-          loop muted playsinline>
+        <!-- Light video – always playing -->
+        <video ref="lightVideoRef" :class="{ 'is-active': activeVideo === 'light' }" autoplay preload="auto"
+          class="hero-video" loop muted playsinline>
           <source :src="lightSafari" type="video/quicktime" />
           <source :src="lightVideo" type="video/webm" />
         </video>
 
-        <!-- Dark video – always preloaded and playing -->
-        <video ref="darkVideoRef" :class="{ 'is-active': activeVideo === 'dark' }" preload="auto" class="hero-video"
-          loop muted playsinline>
+        <!-- Dark video – always playing -->
+        <video ref="darkVideoRef" :class="{ 'is-active': activeVideo === 'dark' }" autoplay preload="auto"
+          class="hero-video" loop muted playsinline>
           <source :src="darkSafari" type="video/quicktime" />
           <source :src="darkVideo" type="video/webm" />
         </video>
