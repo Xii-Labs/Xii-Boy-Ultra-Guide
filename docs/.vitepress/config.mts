@@ -74,7 +74,9 @@ export default defineConfig({
   },
   vite: {
     plugins: [
-      ViteImageOptimizer({})
+      ViteImageOptimizer({
+        logStats: true
+      })
     ]
   }
 })

@@ -13,81 +13,40 @@ const lightSafari = '/Xii-Boy-Ultra-360-Render.mov'
 
 const lightVideoRef = ref<HTMLVideoElement | null>(null)
 const darkVideoRef = ref<HTMLVideoElement | null>(null)
-const activeVideo = ref(isDark.value ? 'dark' : 'light')
+const activeVideo = ref<'light' | 'dark'>('light')
 
-onMounted(() => {
-  if (isDark.value) {
-    lightVideoRef.value?.pause()
-  } else {
-    darkVideoRef.value?.pause()
-  }
-})
-
-function syncVideos(fromVideo: HTMLVideoElement | null, toVideo: HTMLVideoElement | null, targetMode: 'dark' | 'light') {
-  if (fromVideo && toVideo) {
-    const syncTime = fromVideo.currentTime
-    
-    const finalizeSync = () => {
-      activeVideo.value = targetMode
-      // Give the CSS opacity transition a moment to fade in the new video before pausing the old video
-      setTimeout(() => {
-        fromVideo.pause()
-      }, 400)
-    }
-
-    // Always play the new video immediately so it's ready
-    const playPromise = toVideo.play()
-    if (playPromise !== undefined) {
-      playPromise.catch(() => { })
-    }
-
-    if (Math.abs(toVideo.currentTime - syncTime) > 0.1) {
-      const handleSeeked = () => {
-        toVideo.removeEventListener('seeked', handleSeeked)
-        finalizeSync()
-      }
-      toVideo.addEventListener('seeked', handleSeeked)
-      toVideo.currentTime = syncTime
-      
-      // Fallback in case seeked doesn't fire
-      setTimeout(() => {
-        toVideo.removeEventListener('seeked', handleSeeked)
-        finalizeSync()
-      }, 200)
-    } else {
-      finalizeSync()
-    }
-  }
-}
-
-watch(isDark, (dark) => {
-  const fromVideo = dark ? lightVideoRef.value : darkVideoRef.value
-  const toVideo = dark ? darkVideoRef.value : lightVideoRef.value
-  syncVideos(fromVideo, toVideo, dark ? 'dark' : 'light')
-})
-
-// This function checks if the browser supports the View Transitions API.
 const enableTransitions = () =>
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
-// This provides the logic to the theme's dark mode toggle button.
+// Start both videos on mount so they stay perfectly in sync forever
+onMounted(() => {
+  activeVideo.value = isDark.value ? 'dark' : 'light'
+
+  // Play BOTH videos immediately (they are muted + looping)
+  lightVideoRef.value?.play().catch(() => { })
+  darkVideoRef.value?.play().catch(() => { })
+})
+// The CSS opacity transition handles the smooth cross-fade.
+watch(isDark, (dark) => {
+  activeVideo.value = dark ? 'dark' : 'light'
+})
+
 provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
-  // If the browser doesn't support the animation, switch themes instantly.
   if (!enableTransitions()) {
     isDark.value = !isDark.value
     return
   }
 
-  // Gets the click position and sets it as CSS variables for the animation.
-  document.documentElement.style.setProperty('--darkX', x + 'px')
-  document.documentElement.style.setProperty('--darkY', y + 'px')
+  document.documentElement.style.setProperty('--darkX', `${x}px`)
+  document.documentElement.style.setProperty('--darkY', `${y}px`)
 
-  // Triggers the View Transition API.
-  await document.startViewTransition(async () => {
+  const transition = document.startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
-  }).ready
+  })
+
+  await transition.ready
 })
 </script>
 
@@ -95,13 +54,16 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   <Layout>
     <template #home-hero-image>
       <div class="video-container">
-        <!-- Light video -->
-        <video ref="lightVideoRef" :class="{ 'is-active': activeVideo === 'light' }" preload="auto" class="hero-video" autoplay loop muted playsinline>
+        <!-- Light video – always preloaded and playing -->
+        <video ref="lightVideoRef" :class="{ 'is-active': activeVideo === 'light' }" preload="auto" class="hero-video"
+          loop muted playsinline>
           <source :src="lightSafari" type="video/quicktime" />
           <source :src="lightVideo" type="video/webm" />
         </video>
-        <!-- Dark video -->
-        <video ref="darkVideoRef" :class="{ 'is-active': activeVideo === 'dark' }" preload="auto" class="hero-video" autoplay loop muted playsinline>
+
+        <!-- Dark video – always preloaded and playing -->
+        <video ref="darkVideoRef" :class="{ 'is-active': activeVideo === 'dark' }" preload="auto" class="hero-video"
+          loop muted playsinline>
           <source :src="darkSafari" type="video/quicktime" />
           <source :src="darkVideo" type="video/webm" />
         </video>
