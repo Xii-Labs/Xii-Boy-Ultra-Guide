@@ -34,11 +34,11 @@ To learn more about all the different Wii board versions, check out the [Wiki pa
 
 ### SoftMod the Wii
 
-Before proceeding, your Wii must be "softmodded" with the **Homebrew Channel**. The definitive guide for this can be found at [Wii Hacks Guide](https://wii.hacks.guide/str2hax). After the **Homebrew Channel** is installed, proceed with the instructions for **Installing RVLoader**.
+Before proceeding, the Wii must be "softmodded" with the **Homebrew Channel**. The definitive guide for this can be found at [Wii Hacks Guide](https://wii.hacks.guide/str2hax). After the **Homebrew Channel** is installed, proceed with the instructions for **Installing RVLoader**.
 
 ### Install RVLoader
 
-1.  Navigate to the [RVLoader GitHub page](https://github.com/Aurelio92/RVLoader) on your computer.
+1.  Navigate to the [RVLoader GitHub page](https://github.com/Aurelio92/RVLoader) on a computer.
 
 2.  Select the `Releases` button on the right side of the screen.
 
@@ -48,13 +48,13 @@ Before proceeding, your Wii must be "softmodded" with the **Homebrew Channel**. 
 
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step3.webp)
 
-4.  Navigate to your computer’s downloads folder (**Finder** on MacOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
+4.  Navigate to the computer’s downloads folder (**Finder** on MacOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
 
 5.  A folder will be created with the same name, without the `.zip` extension. Open this folder.
 
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step4-5.webp)
 
-6.  Insert the **MicroSD card** into your computer (use a MicroSD to USB adapter if needed). Drag the **contents** of the `.zip` folder onto the **root directory** of the MicroSD card. 
+6.  Insert the **MicroSD card** into the computer (use a MicroSD to USB adapter if needed). Drag the **contents** of the `.zip` folder onto the **root directory** of the MicroSD card. 
 
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step6.webp)
 

@@ -45,7 +45,7 @@ hero:
       </span>
       <span>Community</span>
     </h3>
-    <p class="card-description">Have questions or want to share your build? Join the official Xii-Labs Discord server.</p>
+    <p class="card-description">Have questions or want to share a build? Join the official Xii-Labs Discord server.</p>
   </a>
 
   <a class="card" href="/credits">

@@ -1,6 +1,6 @@
 # RVLoader Setup
 
-This table outlines the directory structure RVLoader uses on your MicroSD card.
+This table outlines the directory structure RVLoader uses on the MicroSD card.
 
 | Path           | Content Type      | Description                                  |
 |----------------|-------------------|----------------------------------------------|
@@ -50,7 +50,7 @@ A USB-C to USB-C cable is not supported by the PMS-PD3, use a USB-A to USB-C cab
 
 Gamecube games must be in `.iso` format. Games ending in `.rvz` and `.nkit.iso` are not supported.
 
-1.  Open the `games` folder in the root of the drive. Create the folder if it isn’t already there.  ￼
+1.  Open the `games` folder in the root of the drive. Create the folder if it isn’t already there.
 2.	Inside `/games/` create one subfolder per title. The folder name can be anything, but including the game name is helpful.
 3.	Put the game’s image file inside that subfolder and name it `game.iso`. If the game has two discs, add the second as `disc2.iso`. **The file naming is crucial, a different name will cause the game to not display.**
 
@@ -78,12 +78,12 @@ The next time RVLoader is booted, the homebrew apps should appear under the Home
 #### Adding Virtual Console / WiiWare Titles
 
 1.	Open the `vc` folder in the root of the drive. Create the folder if it isn’t already there.
-2.	Inside `/vc/` place your Virtual Console or WiiWare `.wad` files.
+2.	Inside `/vc/` place the Virtual Console or WiiWare `.wad` files.
 
 The next time RVLoader is booted, the Virtual Console/WiiWare titles should appear under their respective sections in the menu.  
 
 ### Covers and Themes
 
-Cover art can be retrieved from a site like GameTDB. A `.zip` pack with all Wii and Gamecube game covers is available for download [here](https://www.gametdb.com/Wii/downloads). Place the covers in `/rvloader/covers/` on the MicroSD card. ￼
+Cover art can be retrieved from a site like GameTDB. A `.zip` pack with all Wii and Gamecube game covers is available for download [here](https://www.gametdb.com/Wii/downloads). Place the covers in `/rvloader/covers/` on the MicroSD card.
 
 Custom themes can also be installed. Refer to [Cy's Bitbuilt Post](https://bitbuilt.net/forums/threads/switching-from-themes-to-backgrounds.6784/) for more details.

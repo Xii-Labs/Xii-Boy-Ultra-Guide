@@ -76,8 +76,8 @@ It is also possible to remove the `1.8v LDO` using a soldering iron and dremel i
 
 Capacitor `C4` next to the `1.8v LDO` needs to be removed in order for the **Xii-Strip** to sit flush against the board.
 
-1. Push a large soldering iron tip against the side of the capacitor and stay there until the capcitor heats up.
-2. The capcaitor is small, so this should only take a few seconds. After it is loose, push it off the board and dispose of it.
+1. Push a large soldering iron tip against the side of the capacitor and stay there until the capacitor heats up.
+2. The capacitor is small, so this should only take a few seconds. After it is loose, push it off the board and dispose of it.
 3. Clean the area using a **Q-tip** and **91% isopropyl alcohol**.
 
 <ImageCarousel step="wii-trimming/c4" />
@@ -88,7 +88,7 @@ Perform essential tests before powering the trimmed Wii to ensure functionality.
 
 <WiiResistanceChecker />
 
-Once your resistances are correct and your board passes testing, you can proceed:
+Once the resistances are correct and the board passes testing, you can proceed:
 
 1. Connect the RVL-PMS2 to the Wii. Solder a wire from each voltage pad on the RVL-PMS2 to the respective pad on the Wii (e.g., 3.3v → 3.3v). Use 24 AWG wire and keep wires short.  
 2. Connect outlined AVE pads on the Wii to a stripped RCA cable. The original Wii composite cable and a trimmed video connector can work in a pinch. Connect the cable to a composite-compatible display.  

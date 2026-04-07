@@ -1,10 +1,10 @@
 # Microsoldering Methods
 
-The **Xii-Boy Ultra** requires advanced soldering methods in order to complete the build. It is highly reccomended to practice the following methods on a junk PCB before bringing the iron near the Wii or other custom PCBs. 
+The **Xii-Boy Ultra** requires advanced soldering methods in order to complete the build. It is highly recommended to practice the following methods on a junk PCB before bringing the iron near the Wii or other custom PCBs. 
 
 ## General Soldering
 
-Solder is a metal alloy that acts like glue for electronics. It holds components together and is conductive, meaning electricity can flow through it freely. A soldering iron is the tool that melts the solder so you can make your own connections. A good soldering iron is one that is temperature-controlled and conducts heat well. The recommended soldering iron temperature for the **Xii-Boy Ultra** build is `350°C`. The only exception is the `1.8V LDO` because of the large pads which sink a large amount of heat. An iron’s tip greatly affects heat transfer, a conical tip is nowhere as effective as a **TS-D24 tip** or similar. However, conical tips can still be useful for tiny pins and flex soldering where less heat is required.
+Solder is a metal alloy that acts like glue for electronics. It holds components together and is conductive, meaning electricity can flow through it freely. A soldering iron is the tool that melts the solder to make connections. A good soldering iron is one that is temperature-controlled and conducts heat well. The recommended soldering iron temperature for the **Xii-Boy Ultra** build is `350°C`. The only exception is the `1.8V LDO` because of the large pads which sink a large amount of heat. An iron’s tip greatly affects heat transfer, a conical tip is nowhere as effective as a **TS-D24 tip** or similar. However, conical tips can still be useful for tiny pins and flex soldering where less heat is required.
 
 ### General Soldering Process:
 
@@ -18,7 +18,7 @@ Solder is a metal alloy that acts like glue for electronics. It holds components
 
 ## Scraping Vias
 
-The vias on the Wii’s motherboard are coated with solder mask, and the copper isn’t fully exposed. Copper has to be exposed for solder to bond, so the solder mask needs scraped off.
+The vias on the Wii’s motherboard are coated with solder mask, and the copper isn’t fully exposed. Copper has to be exposed for solder to bond, so the solder mask needs to be scraped off.
 
 1. Prepare the **X-Acto knife** with a `#2` blade.
 2. Gently scrape along the edge of the via with the tip of the blade. Move it in a circular motion until the copper is fully exposed. Remember, only the solder mask should be scraped. **Do not scrape away the copper!**
@@ -28,7 +28,7 @@ The vias on the Wii’s motherboard are coated with solder mask, and the copper 
 
 ## Flex Soldering
 
-Flex cables are soldered directly to the scraped vias. A proper connection is absoltely necessary for the portable to work.
+Flex cables are soldered directly to the scraped vias. A proper connection is absolutely necessary for the portable to work.
 
 1.	Apply flux over all exposed vias.
 2.	Heat the soldering iron and lightly touch it to the vias.
