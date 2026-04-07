@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Xii-Boy Ultra Guide',
   description: 'A Guide to Building the First Wire-Free Portable Wii',
-  base: '/',                
-  cleanUrls: true,          
+  base: '/',
+  cleanUrls: true,
   head: [
     ['script', { src: 'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -22,26 +22,34 @@ export default defineConfig({
       { text: 'Guide', link: '/introduction' }
     ],
     sidebar: [
-      { text: 'Introduction', items: [
-        { text: 'About the Project', link: '/introduction' },
-        { text: 'Basic Electronics', link: '/basic-electronics' }
-      ]},
-      { text: 'Preparation', items: [
-        { text: 'Microsoldering Methods', link: '/microsoldering-methods' },
-        { text: 'Materials & Tools', link: '/materials-tools' },
-        { text: 'Wii Preparation', link: '/wii-preparation' }
-      ]},
-      { text: 'The Build', items: [
-        { text: 'Wii Trimming', link: '/wii-trimming' },
-        { text: 'Xii-Flex Install', link: '/xii-flex-install' },
-        { text: 'Castellated Module Install', link: '/castellated-module-install' },
-        { text: 'Top Half Assembly', link: '/top-half-assembly' },
-        { text: 'Bottom Half Assembly', link: '/bottom-half-assembly' },
-        { text: 'RVLoader Setup', link: '/rvloader-setup' }
-      ]},
-      { text: 'Support', items: [
-        { text: 'Troubleshooting & FAQ', link: '/troubleshooting-faq' }
-      ]}
+      {
+        text: 'Introduction', items: [
+          { text: 'About the Project', link: '/introduction' },
+          { text: 'Basic Electronics', link: '/basic-electronics' }
+        ]
+      },
+      {
+        text: 'Preparation', items: [
+          { text: 'Microsoldering Methods', link: '/microsoldering-methods' },
+          { text: 'Materials & Tools', link: '/materials-tools' },
+          { text: 'Wii Preparation', link: '/wii-preparation' }
+        ]
+      },
+      {
+        text: 'The Build', items: [
+          { text: 'Wii Trimming', link: '/wii-trimming' },
+          { text: 'Xii-Flex Install', link: '/xii-flex-install' },
+          { text: 'Castellated Module Install', link: '/castellated-module-install' },
+          { text: 'Top Half Assembly', link: '/top-half-assembly' },
+          { text: 'Bottom Half Assembly', link: '/bottom-half-assembly' },
+          { text: 'RVLoader Setup', link: '/rvloader-setup' }
+        ]
+      },
+      {
+        text: 'Support', items: [
+          { text: 'Troubleshooting & FAQ', link: '/troubleshooting-faq' }
+        ]
+      }
     ],
     search: {
       provider: 'local',
@@ -59,7 +67,7 @@ export default defineConfig({
     outline: { level: 'deep', label: 'On This Page' },
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} Bryce Shaw`,
-      message: 'Released under the MIT License.'
+      message: '<a href="https://github.com/Bryceshaw06/Xii-Boy-Ultra-Guide">Released under the GPLv3 License.</a>'
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Xenii1642/Xii-Boy-Ultra' }]
   }
