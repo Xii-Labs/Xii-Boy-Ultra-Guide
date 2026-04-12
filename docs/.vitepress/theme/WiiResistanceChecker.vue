@@ -7,7 +7,7 @@ const testData = {
     { com: 'GND', volt: '1.15V', range: '20 Ω – 95 Ω' },
     { com: 'GND', volt: '1.8V', range: '25 Ω – 90 Ω' },
     { com: 'GND', volt: '3.3V', range: '1.2 kΩ – 17.0 kΩ' },
-    { com: '1.0V', volt: '1.15V', range: '110 Ω – 300 Ω' },
+    { com: '1.0V', volt: '1.15V', range: '110 Ω – 425 Ω' },
     { com: '1.0V', volt: '1.8V', range: '150 Ω – 320 Ω' },
     { com: '1.0V', volt: '3.3V', range: '6.0 kΩ – 17.0 kΩ' },
     { com: '1.15V', volt: '1.8V', range: '35 Ω – 300 Ω' },
