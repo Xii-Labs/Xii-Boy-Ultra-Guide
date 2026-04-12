@@ -2,7 +2,7 @@
 
 ## Identify the Wii’s Revision
 
-There are several revisions of the Nintendo Wii motherboard, but for this guide, only one difference really matters: the type of processor the board uses. To build a portable Wii that runs cool and uses less power, you'll need a motherboard with the **Hollywood-1 SoC** (**S**ystem **o**n **C**hip). These are often called **“4-layer Wiis”** because the **Hollywood-1** is always paired with a **4-layer PCB** as opposed to the older revision’s **6-layer PCB**.
+There are several revisions of the Nintendo Wii motherboard, but for this guide, only one difference really matters: the type of processor the board uses. To build a portable Wii that runs cool and uses less power, a motherboard with the **Hollywood-1 SoC** (**S**ystem **o**n **C**hip) is required. These are often called **“4-layer Wiis”** because the **Hollywood-1** is always paired with a **4-layer PCB** as opposed to the older revision’s **6-layer PCB**.
 
 **The following motherboard revisions will always be a 4-layers:**
 

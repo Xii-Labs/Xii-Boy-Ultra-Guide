@@ -8,10 +8,10 @@ export default defineConfig({
       includePublic: false,
       include: /docs\/assets\//,
       webp: {
-        lossless: true
+        quality: 80
       },
       avif: {
-        lossless: true
+        quality: 80
       }
     })
   ]

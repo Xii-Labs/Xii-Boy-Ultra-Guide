@@ -23,7 +23,7 @@
 <!-- ### 2. Rumble Motor
 
 1.  Cut `16mm` worth of picolock cable (from the tip of the connector) and strip a small section at the end.
-2.  If you have heat shrink tubing, place it over the red and blue wires now. Otherwise, electrical tape is needed after combining the wires.
+2.  If heat shrink tubing is available, place it over the red and blue wires now. Otherwise, electrical tape is needed after combining the wires.
 3.  Solder the wires to their corresponding picolock wires. Keep the connections as flush as possible and avoid wire fraying. It is best to apply flux to both ends of the wire, put a little bit of solder on the tip of the iron, then try to spread the solder over the joint to make a solid connection.
 4.  Verify the connection with a small tug on the wires, and by checking continuity with the tip of the picolock terminals.
 5.  Heat the heat shrink tubing to cover the exposed wires, or use electrical tape instead. -->
@@ -40,7 +40,7 @@
 
 <ImageCarousel step="top-half-assembly/display-place" />
 
-3.  Slowly rotate the screen toward the front of the shell. At the very end, a small amount of force may be required to set the display in place. A small lip surrounds the indent, and you may hear a soft “click” as the display snaps into place.
+3.  Slowly rotate the screen toward the front of the shell. At the very end, a small amount of force may be required to set the display in place. A small lip surrounds the indent, and a soft “click” will indicate the display is snapped into place.
 
 :::info NOTICE
 After the click, the display will be held in by friction and the lip. It is not recommended to remove the display more than once or twice, as this can cause issues with the fitting.

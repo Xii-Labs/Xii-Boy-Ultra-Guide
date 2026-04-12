@@ -10,7 +10,7 @@ This guide is made to help modders assemble their own with step-by-step instruct
 
 ### Method 1: Purchase a Kit from the Xii-Shop.
 
-This is a kit with nearly all the parts required for this project. On top of supporting the creators, it skips the hassle of dealing with multiple suppliers for the PCBs, case, and components. Everything will be delivered in one neat package, and all **Xii-Boy Ultra** carrier PCBs will arrive assembled (excluding modules from 4 Layer Technologies). This is often the simplest option, and it will reduce total shipping costs, tarrifs and customs, and avoid buying in bulk (e.g. PCBs must be bought at a minimum quantity of 5 from most suppliers). You can find kits available for purchase [here](LINK HERE).  
+This is a kit with nearly all the parts required for this project. On top of supporting the creators, it skips the hassle of dealing with multiple suppliers for the PCBs, case, and components. Everything will be delivered in one neat package, and all **Xii-Boy Ultra** carrier PCBs will arrive assembled (excluding modules from 4 Layer Technologies). This is often the simplest option, and it will reduce total shipping costs, tarrifs and customs, and avoid buying in bulk (e.g. PCBs must be bought at a minimum quantity of 5 from most suppliers). Kits are available for purchase [here](LINK HERE).  
 
 :::warning Warning: Batteries Not Included
 There are a few parts that need purchased separately. The most notable are:

@@ -88,7 +88,7 @@ Perform essential tests before powering the trimmed Wii to ensure functionality.
 
 <WiiResistanceChecker />
 
-Once the resistances are correct and the board passes testing, you can proceed:
+Once the resistances are correct and the board passes testing, proceed to the next section:
 
 1. Connect the RVL-PMS2 to the Wii. Solder a wire from each voltage pad on the RVL-PMS2 to the respective pad on the Wii (e.g., 3.3v → 3.3v). Use 24 AWG wire and keep wires short.  
 2. Connect outlined AVE pads on the Wii to a stripped RCA cable. The original Wii composite cable and a trimmed video connector can work in a pinch. Connect the cable to a composite-compatible display.  
