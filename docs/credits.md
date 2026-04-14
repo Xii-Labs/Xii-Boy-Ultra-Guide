@@ -148,7 +148,7 @@ next: false
 
 <!-- Xii‑Boy Team -->
 <div class="section-box">
-<div class="section-header">Xii‑Boy Team</div>
+<div class="section-header">Xii‑Labs Team</div>
 <div class="credits-grid team">
 <a class="card-link" href="https://github.com/Bryceshaw06" target="_blank" rel="noopener">
   <div class="credit-card">
