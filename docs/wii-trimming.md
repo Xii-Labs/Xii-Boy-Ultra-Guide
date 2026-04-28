@@ -21,11 +21,11 @@ These diagrams contain annotated images of the bare Wii motherboard. Use them as
 
 <ImageCarousel step="wii-trimming/motherboard" />
 
-2. Use a pair of pliers to remove the large electrolytic capacitors on the top side of the board. They are highlighted Pink in the Top diagram.  
+2. Use a pair of pliers to remove the large electrolytic capacitors on the top side of the board. They are highlighted **pink** in the WII TRIM DIAGRAM - TOP. It's okay if any of the capacitor pads on the Wii rip since they aren't soldered to for this build.
 
 <ImageCarousel step="wii-trimming/video-caps" />
 
-3. Use a pair of pliers to remove the large inductor (`L4`) located on the top side of the board, beneath the RAM. 
+3. Use a pair of pliers to remove the large inductor (`L4`) located on the top side of the board, beneath the RAM. It's okay if the pad is ripped in the process, as nothing is to be soldered to it in this build.
 
 <ImageCarousel step="wii-trimming/l4-inductor" />
 
@@ -41,7 +41,7 @@ These diagrams contain annotated images of the bare Wii motherboard. Use them as
 **Cutting PCBs releases dust and shards. These micro-plastic dust clouds and copper shards can cause permanent lung damage. Equip proper safety gear to protect your eyes and lungs.**
 :::
 
-7. Begin trimming slowly, cutting slightly outside the trim line as the Wii will need to be sanded afterwards. If a component on one side blocks the Dremel, switch sides. Be extremely cautious of Critical Passives (Red) and Core ICs (White) in the diagram.  
+7. Begin trimming slowly against the rotation of the wheel, cutting slightly outside the trim line as the Wii will need to be sanded afterwards. If a component on one side blocks the Dremel, switch sides. Be extremely cautious of Critical Passives (Red) and Core ICs (White) in the diagram.  
 
 <ImageCarousel step="wii-trimming/begin-trim" />
 
