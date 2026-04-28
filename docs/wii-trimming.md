@@ -21,11 +21,11 @@ These diagrams contain annotated images of the bare Wii motherboard. Use them as
 
 <ImageCarousel step="wii-trimming/motherboard" />
 
-2. Use a pair of pliers to remove the large electrolytic capacitors on the top side of the board. They are highlighted **pink** in the WII TRIM DIAGRAM - TOP. It's okay if any of the capacitor pads on the Wii rip since they aren't soldered to for this build.
+2. Use a pair of pliers to remove the large electrolytic capacitors on the top side of the board. They are highlighted **pink** in the WII TRIM DIAGRAM - TOP. If any of these capacitor pads on the Wii rip, it is not a concern as they are not utilized by the Xii-Boy Ultra.
 
 <ImageCarousel step="wii-trimming/video-caps" />
 
-3. Use a pair of pliers to remove the large inductor (`L4`) located on the top side of the board, beneath the RAM. It's okay if the pad is ripped in the process, as nothing is to be soldered to it in this build.
+3. Use a pair of pliers to remove the large inductor (`L4`) located on the top side of the board, beneath the RAM. If this pad is ripped during the process, it is not a concern as the pad is not utilized by the Xii-Boy Ultra.
 
 <ImageCarousel step="wii-trimming/l4-inductor" />
 
