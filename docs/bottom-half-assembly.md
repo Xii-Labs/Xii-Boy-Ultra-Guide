@@ -1,6 +1,6 @@
 # Bottom Half Assembly
 
-### Joystick Trigger Modification
+## Joystick Trigger Modification
 
 :::danger Important
 This trigger mod is **only** compatible with a specific revision of 3rd party joysticks. **OEM and Hall sticks are not compatible and will not work**. Use the included joysticks in the **Xii-Boy Ultra Kit**.
