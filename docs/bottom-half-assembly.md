@@ -47,7 +47,7 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 2.  Position the heatsink and fan over the designated area in the bottom shell, with the fan's cable facing the USB-C port and the top of the shell. **Align the heatsink so its fins and arches match the shell’s arches.**
 
-3.  One aligned, firmly press the assembly down to ensure it makes full contact with the shell. Both the heatsink and fan should be seated evenly without rocking. Route the cable through the small notch in the shell.
+3.  Once aligned, firmly press the assembly down to ensure it makes full contact with the shell. Both the heatsink and fan should be seated evenly without rocking. Route the cable through the small notch in the shell.
 
 <ImageCarousel step="bottom-half-assembly/heatsink-fan-install" />
 
