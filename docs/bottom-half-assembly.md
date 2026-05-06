@@ -1,6 +1,6 @@
 # Bottom Half Assembly
 
-### Joystick Trigger Modification
+## Joystick Trigger Modification
 
 :::danger Important
 This trigger mod is **only** compatible with a specific revision of 3rd party joysticks. **OEM and Hall sticks are not compatible and will not work**. Use the included joysticks in the **Xii-Boy Ultra Kit**.
@@ -39,13 +39,21 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 7.  Repeat the process for the second trigger.
 
-### Lower Layer
+## Lower Layer
 
-1.  Retrieve the heatsink and fan from **Bag B2**. Install the heatsink and fan. **Align the heatsink so its fins and arches match the shell’s arches.** Position the fan with the cable facing the USB-C port and the top of the shell. Route the cable through the small notch in the shell.
+### Heatsink & Fan Installation
+
+1.  Retrieve the heatsink and fan from **Bag B2**. Before installation, inspect the heatsink base and fan for any dust or debris. Use a clean, dry cloth to gently remove any particles.
+
+2.  Position the heatsink and fan over the designated area in the bottom shell. **Align the heatsink so its fins and arches match the shell’s arches.** Position the fan with the cable facing the USB-C port and the top of the shell.
+
+3.  One aligned, firmly press the assembly down to ensure it makes full contact with the shell. Both the heatsink and fan should be seated evenly without rocking. Route the cable through the small notch in the shell.
 
 <ImageCarousel step="bottom-half-assembly/heatsink-fan-install" />
 
-2.  Retrieve the RZ and LZ bumper buttons from **Bag G4**. Place the RZ and LZ bumper buttons.
+### Trigger PCB (XBU-005)
+
+1.  Retrieve the RZ and LZ bumper buttons from **Bag G4**. Place the RZ and LZ bumper buttons.
 
 <ImageCarousel step="bottom-half-assembly/rz-lz-buttons" />
 
@@ -54,11 +62,11 @@ GUIDE NEEDS UPDATED - PLACE WIFI ANTENNAS (STEP 8) BEFORE FASTENING THE TRIGGER 
 :::
 
 
-3.  Connect the two modified Joy-Con Joystick Triggers to the Trigger PCB ZIF connectors.
+2.  Connect the two modified Joy-Con Joystick Triggers to the Trigger PCB ZIF connectors.
 
 <ImageCarousel step="bottom-half-assembly/triggers-connect" />
 
-4.  Align the Trigger PCB and triggers with their respective screw posts. Fasten the Trigger PCB with five `4mm` Phillips screws from **Bag G3**, and fasten the triggers with two `4mm` Phillips screws each.
+3.  Align the Trigger PCB and triggers with their respective screw posts. Fasten the Trigger PCB with five `4mm` Phillips screws from **Bag G3**, and fasten the triggers with two `4mm` Phillips screws each.
 
 <ImageCarousel step="bottom-half-assembly/trigger-pcb-install" />
 
@@ -66,44 +74,54 @@ GUIDE NEEDS UPDATED - PLACE WIFI ANTENNAS (STEP 8) BEFORE FASTENING THE TRIGGER 
 The ribbon cables on the triggers will need to be bent in order to fit properly.
 :::
 
-5.  Unlock the 8 Pin ZIF Connector on the Trigger PCB labeled “To Main PCB”. Retrieve the 8 Pin FFC from **Bag G5**. Insert the 8 Pin FFC and lock the connector. Bend the cable so that it is facing straight up - 90° from the connector.
+4.  Unlock the 8 Pin ZIF Connector on the Trigger PCB labeled “To Main PCB”. Retrieve the 8 Pin FFC from **Bag G5**. Insert the 8 Pin FFC and lock the connector. Bend the cable so that it is facing straight up - 90° from the connector.
 
 <ImageCarousel step="bottom-half-assembly/trigger-pcb-zif" />
 
-6.  Apply Arctic MX-4 thermal paste to the heat sink in an “X” shape. Apply more than what is pictured, but not so much it overflows.
+### Copper Heat Spreader
+
+1.  Apply Arctic MX-4 thermal paste to the heat sink in an “X” shape. Apply more than what is pictured, but not so much it overflows.
 
 <ImageCarousel step="bottom-half-assembly/thermal-paste" />
 
-7.  Retrieve the copper plate from **Bag B2**. Firmly place the `30mm x 55mm x 1mm` copper plate over the heat sink and fan.
+2.  Retrieve the copper plate from **Bag B2**. Firmly place the `30mm x 55mm x 1mm` copper plate over the heat sink and fan.
 
 <ImageCarousel step="bottom-half-assembly/copper-plate" />
 
-8.  Retrieve the Wi-Fi antennas from **Bag B1**. Remove the white adhesive strips from the two black Wi-Fi antennas and place them as pictured. Wrap each of the wires twice around the upper right screw post.
+### Placing & Routing WiFi Antennas
+
+1.  Retrieve the Wi-Fi antennas from **Bag B1**. Remove the white adhesive strips from the two black Wi-Fi antennas and place them as pictured. Wrap each of the wires twice around the upper right screw post.
 
 <ImageCarousel step="bottom-half-assembly/antenna-place" />
 
-9.  Retrieve the clear light pipe from **Bag B4**. Take the clear light pipe and a pair of pliers. Position the light pipe at the top of the shell on the left of the power button hole. Carefully use the pliers to push the pipe into place. Do not apply too much force, as this could crack the shell easily.
+### Side Buttons
+
+1.  Retrieve the clear light pipe from **Bag B4**. Take the clear light pipe and a pair of pliers. Position the light pipe at the top of the shell on the left of the power button hole. Carefully use the pliers to push the pipe into place. Do not apply too much force, as this could crack the shell easily.
 
 <ImageCarousel step="bottom-half-assembly/light-pipe" />
 
-10. Retrieve the Power and Bluetooth Sync buttons from **Bag G4**. Place the `Power` (closest to the light pipe) and `Bluetooth Sync` (closest to the corner) buttons in their slots. Each button has a notch, so note the orientation. A small piece of tape can be used to keep them in place.
+2. Retrieve the Power and Bluetooth Sync buttons from **Bag G4**. Place the `Power` (closest to the light pipe) and `Bluetooth Sync` (closest to the corner) buttons in their slots. Each button has a notch, so note the orientation. A small piece of tape can be used to keep them in place.
 
 <ImageCarousel step="bottom-half-assembly/power-bluetooth-buttons" />
 
-11. Retrieve the Brightness and Volume rockers from **Bag G4**. Place the `Brightness` and `Volume` rockers into their slots. Each rocker has a notch, so note the orientation. A small piece of tape can be used to keep them there. 
+3. Retrieve the Brightness and Volume rockers from **Bag G4**. Place the `Brightness` and `Volume` rockers into their slots. Each rocker has a notch, so note the orientation. A small piece of tape can be used to keep them there. 
 
 <ImageCarousel step="bottom-half-assembly/volume-brightness-rockers" />
 
-12. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the **Main PCB**. The module should have a small cushion to keep it adhered to the **Main PCB**. If the cushion ripped or is missing, a strip of double sided tape works instead.
+### Main PCB Preparation
+
+1. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the **Main PCB**. The module should have a small cushion to keep it adhered to the **Main PCB**. If the cushion ripped or is missing, a strip of double sided tape works instead.
 
 <ImageCarousel step="bottom-half-assembly/bluetooth-module" />
 
-13.  Take the Wi-Fi module that was retrieved from the Wii’s PCB and attach the Wi-Fi antenna connectors. Insert the Wi-Fi connector into the white connector on the bottom of the **Main PCB**. Ensure the Wi-Fi antenna cables are facing toward the top of the shell.
+2.  Take the Wi-Fi module that was retrieved from the Wii’s PCB and attach the Wi-Fi antenna connectors. Insert the Wi-Fi connector into the white connector on the bottom of the **Main PCB**. Ensure the Wi-Fi antenna cables are facing toward the top of the shell.
 
 <ImageCarousel step="bottom-half-assembly/wifi-module" />
 
 
-### Upper Layer
+## Upper Layer
+
+### Main PCB (XBU-001)
 
 1.  Insert the **Main PCB** into the shell at a `45°` angle. The USB-C port and Headphone Jack will slot nicely into place. While lowering the PCB, ensure the Trigger PCB flex cable and Fan PicoLock (not pictured) pass into the Upper Layer.
 
@@ -125,19 +143,21 @@ The ribbon cables on the triggers will need to be bent in order to fit properly.
 
 <ImageCarousel step="bottom-half-assembly/fan-connect" />
 
-6.  Retrieve the 40p Shielded FFC from **Bag B6**. Take the **40p Shielded FFC (XBU-007)** and bend the tips of the stiffener. Note the orientation, as the flex can only be installed one way. **If it is inserted in the incorrect orientation, it will cause a short between 3.3v and GND.**
+### Finishing Bottom Half
+
+1.  Retrieve the 40p Shielded FFC from **Bag B6**. Take the **40p Shielded FFC (XBU-007)** and bend the tips of the stiffener. Note the orientation, as the flex can only be installed one way. **If it is inserted in the incorrect orientation, it will cause a short between 3.3v and GND.**
 
 <ImageCarousel step="bottom-half-assembly/shielded-ffc" />
 
-7.  Unlock the 40 Pin Xii-DD ZIF connector. Bend the FFC as pictured and insert it into the ZIF connector. Lock the connector.
+2.  Unlock the 40 Pin Xii-DD ZIF connector. Bend the FFC as pictured and insert it into the ZIF connector. Lock the connector.
 
 <ImageCarousel step="bottom-half-assembly/shielded-ffc-install" />
 
-8.  Apply a few drops of 99% isopropyl alcohol onto the copper plate. A Q-Tip can then be used to wipe it up and clean off the surface. Repeat for the Hollywood and Broadway chips on the Wii’s PCB.
+3.  Apply a few drops of 91% isopropyl alcohol onto the copper plate. A Q-Tip can then be used to wipe it up and clean off the surface. Repeat for the Hollywood and Broadway chips on the Wii’s PCB.
 
 <ImageCarousel step="bottom-half-assembly/copper-clean" />
 
-9.  Check the voltages of both **18650 battery cells** with a multimeter. Ensure they are within ~0.1v of each other. Insert each of the batteries into the holders at the bottom of the shell, noting the orientation (+ on the left and - on the right). Check that there is a solid connection between the battery terminals and the Main PCB battery tabs.
+4.  Check the voltages of both **18650 battery cells** with a multimeter. Ensure they are within ~0.1v of each other. Insert each of the batteries into the holders at the bottom of the shell, noting the orientation (+ on the left and - on the right). Check that there is a solid connection between the battery terminals and the Main PCB battery tabs.
 
 <ImageCarousel step="bottom-half-assembly/18650-install" />
 
@@ -145,28 +165,28 @@ The ribbon cables on the triggers will need to be bent in order to fit properly.
 The orientation of the batteries is crucial, inserting them backwards can cause permanent damage to the RVL-PMS2 and the rest of the **Xii-Boy Ultra**. Connecting two batteries in parallel at drastically different voltages can cause a fire in the worst case scenario, and damage the battery capacity at best. If the batteries are not within ~0.1v of each other, charge one until it is equivalent.
 :::
 
-10. Apply thermal paste to the copper plate in two `X` shapes. One large `X` for Hollywood, and a smaller `X` for Broadway.
+5. Apply thermal paste to the copper plate in two `X` shapes. One large `X` for Hollywood, and a smaller `X` for Broadway.
 
 <ImageCarousel step="bottom-half-assembly/thermal-paste-install" />
 
-11. Unlock the **50 Pin Xii-Flex Ultra ZIF connector**. Insert the **Xii-Flex Ultra** into the ZIF connector and lock it.
+6. Unlock the **50 Pin Xii-Flex Ultra ZIF connector**. Insert the **Xii-Flex Ultra** into the ZIF connector and lock it.
 
 <ImageCarousel step="bottom-half-assembly/xii-flex-ultra-install" />
 
-12. Insert the **PicoLock power connector** into the **Main PCB** and the **Xii-Strip**.
+7. Insert the **PicoLock power connector** into the **Main PCB** and the **Xii-Strip**.
 
 :::info
 This is not pictured, as it was added in a later revision. It replaces the pogo pins in the images.
 :::
 
-13.  Fold the Wii over the copper plate and press down firmly to spread the thermal paste. Align the screw holes on the Wii with the three screw posts on the bottom shell. Use three silver `7.3mm` Phillips screws from the Wii’s motherboard cover ([https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575](https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575)) to fasten the trimmed Wii in place.
+8.  Fold the Wii over the copper plate and press down firmly to spread the thermal paste. Align the screw holes on the Wii with the three screw posts on the bottom shell. Use three silver `7.3mm` Phillips screws from the Wii’s motherboard cover ([https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575](https://www.ifixit.com/Guide/Nintendo+Wii+Heat+Sink+Replacement/3458#s16575)) to fasten the trimmed Wii in place.
 
 <ImageCarousel step="bottom-half-assembly/wii-board-install" />
 
-14. Unlock the 40 Pin Main PCB ZIF connector on the Xii-DD PCB. Insert the 40 Pin Shielded FFC and lock the connector.
+9. Unlock the 40 Pin Main PCB ZIF connector on the Xii-DD PCB. Insert the 40 Pin Shielded FFC and lock the connector.
 
 <ImageCarousel step="bottom-half-assembly/xii-dd-shielded-zif" />
 
-15. Close both halves and connect them with six `6mm` Phillips screws from **Bag G3**. The screwholes in the bottom shell are recessed, so a screwdriver with a long tip is required.
+10. Close both halves and connect them with six `6mm` Phillips screws from **Bag G3**. The screwholes in the bottom shell are recessed, so a screwdriver with a long tip is required.
 
 **The Xii-Boy Ultra Assembly is now complete. Proceed to RVLoader setup.**

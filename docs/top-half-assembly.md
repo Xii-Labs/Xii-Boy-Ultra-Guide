@@ -28,8 +28,6 @@
 4.  Verify the connection with a small tug on the wires, and by checking continuity with the tip of the picolock terminals.
 5.  Heat the heat shrink tubing to cover the exposed wires, or use electrical tape instead. -->
 
-## Top Half Assembly
-
 ### Installing the Display
 
 1.  Retrieve the display from **Bag T1**. Peel off the film covering the front of the glass.
