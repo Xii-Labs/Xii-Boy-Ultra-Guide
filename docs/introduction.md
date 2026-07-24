@@ -8,7 +8,7 @@ This guide is made to help modders assemble their own with step-by-step instruct
 
 <!-- TODO: Reword Above. Make it more professional -->
 
-### Method 1: Purchase a Kit from the Xii-Shop.
+## Method 1: Purchase a Kit from the Xii-Shop.
 
 This is a kit with nearly all the parts required for this project. On top of supporting the creators, it skips the hassle of dealing with multiple suppliers for the PCBs, case, and components. Everything will be delivered in one neat package, and all **Xii-Boy Ultra** carrier PCBs will arrive assembled (excluding modules from 4 Layer Technologies). This is often the simplest option, and it will reduce total shipping costs, tarrifs and customs, and avoid buying in bulk (e.g. PCBs must be bought at a minimum quantity of 5 from most suppliers). Kits are available for purchase [here](LINK HERE).  
 
@@ -24,7 +24,7 @@ There are a few parts that need purchased separately. The most notable are:
 For more information, view the kit details [here](LINK HERE)
 :::
 
-### Method 2: Source Parts from Multiple Suppliers of Choice.
+## Method 2: Source Parts from Multiple Suppliers of Choice.
 
 In this method, carrier PCBs will be created by a PCB fabrication house such as **PCBWay** or **JLCPCB**. Small components will be purchased from an electronic parts distributor like **Digikey** or **Mouser**. The 3D printed shells will be printed through a service like **PCBWay** or **JLC3DP** or at a local makerspace. 
 

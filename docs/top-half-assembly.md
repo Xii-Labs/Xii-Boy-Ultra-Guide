@@ -28,7 +28,7 @@
 4.  Verify the connection with a small tug on the wires, and by checking continuity with the tip of the picolock terminals.
 5.  Heat the heat shrink tubing to cover the exposed wires, or use electrical tape instead. -->
 
-### Installing the Display
+## Installing the Display
 
 1.  Retrieve the display from **Bag T1**. Peel off the film covering the front of the glass.
 
@@ -44,7 +44,7 @@
 After the click, the display will be held in by friction and the lip. It is not recommended to remove the display more than once or twice, as this can cause issues with the fitting.
 :::
 
-### Xii-DD PCB (XBU-002)
+## Xii-DD PCB (XBU-002)
 
 1.  Flip the top shell so the external side is facing down. Retrieve the Xii-DD PCB from **Bag T2**. Then, slide the Xii-DD PCB at a `20°` angle on the back of the display until it pushes against the top of the shell and underneath the notch. Fasten the Xii-DD PCB in place using two `4mm` Phillips screws from **Bag G3**.
 
@@ -56,7 +56,7 @@ After the click, the display will be held in by friction and the lip. It is not 
 
 <ImageCarousel step="top-half-assembly/xii-dd-zif" />
 
-### Face Buttons
+## Face Buttons
 
 1.  Retrieve the DS lite buttons and D-pad from **Bag T3**. Place the DS lite buttons and D-pad in their respective slots. The buttons have notches to ensure correct orientation. The D-pad, however, can be installed in any orientation.
 
@@ -70,7 +70,7 @@ After the click, the display will be held in by friction and the lip. It is not 
 
 <ImageCarousel step="top-half-assembly/membrane-place" />
 
-### Controller PCB (XBU-003)
+## Controller PCB (XBU-003)
 
 :::danger Note
 The order of the following steps is not optimal and needs to be updated. Use as reference only.
@@ -94,7 +94,7 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <!-- TODO: NEW PHOTOS -->
 
-### Finishing Top Half
+## Finishing Top Half
 
 1.  Line up the completed Controller PCB with its screw posts. Ensure the cables for the rumble motor and speakers do not get caught underneath the PCB. Then, screw the board into place using eleven `4mm` Phillips screws from **Bag G3**.
 
