@@ -39,7 +39,7 @@ export default defineConfig({
       {
         text: 'The Build', items: [
           { text: 'Wii Trimming', link: '/wii-trimming' },
-          { text: 'Xii-Flex Install', link: '/xii-flex-install' },
+          { text: 'Xii-Strip & Xii-Flex Install', link: '/xii-strip-flex-install' },
           { text: 'Castellated Module Install', link: '/castellated-module-install' },
           { text: 'Top Half Assembly', link: '/top-half-assembly' },
           { text: 'Bottom Half Assembly', link: '/bottom-half-assembly' },
