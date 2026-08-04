@@ -1,12 +1,12 @@
 # Xii-Strip & Xii-Flex Install
 
-Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality. While Xii-Strip supplies power to the voltage rails on the trimmed Wii, Xii-Flex Ultra breaks out all the neccesary connections from the vias on the Wii to a 50 pin connector on the Main PCB. Because of how many connections are broken out, it can be easy to bridge connections, so follow each step exactly and check for bridges before continuing.
+Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality. While Xii-Strip supplies power to the voltage rails on the trimmed Wii, Xii-Flex Ultra breaks out all the neccesary connections from the vias on the Wii to a 50 pin connector on the Main PCB. Because of how many connections are broken out, it can be easy to bridge connections, so follow each step exactly and check for bridges before continuing. Be prepared to reflow as necessary.
 
 ## Installing Xii-Strip
 
 <!-- TODO: Add images for steps -->
 
-1.  Retrieve Xii-Strip from **Bag B7**. Align it on top of the trimmed Wii so that it lays directly against the PCB.
+1.  Retrieve Xii-Strip FPC from **Bag B7**. Align it on top of the trimmed Wii so that it lays directly against the PCB.
 
 2.  Refer to [General Soldering](https://xbu-guide.me/microsoldering-methods#general-soldering) for a more extensive guide on the process of soldering joints.
 
@@ -20,7 +20,7 @@ Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality
 
 <!-- TODO: Diagram, top side pics -->
 
-1.  Refer to [Scraping Vias](https://xbu-guide.me/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the soldermask.
+1.  Flip the trimmed Wii so that the bottom side is facing up. Refer to [Scraping Vias](https://xbu-guide.me/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the soldermask.
 
 2.  Refer to [Flex Soldering](https://xbu-guide.me/microsoldering-methods#flex-soldering) for the following steps.
 
@@ -36,16 +36,16 @@ Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality
 
 6.  Repeat this process for the rest of the tinned vias on the bottom, starting with USB. Once each tinned via is soldered to Xii-Flex Ultra, solder to resistors **RA20**, **R213** and **R212**.
 
-7.  Solder the 3.3v and GND pads on Xii-Flex Ultra to the Wii. Ensure these pads are fully soldered, as it may take longer for the Wii to heat up.
+7.  Solder the `3.3V` and `GND` pads on Xii-Flex Ultra to the Wii. Ensure these pads are fully soldered, as it may take longer for the Wii to heat up.
 
 <ImageCarousel step="xii-strip-flex-install/flex-bottom" />
 
-8.  Align the Bluetooth leg of Xii-Flex Ultra on the top side of the Wii to see where the vias on the flex are positioned.
+8.  Flip the trimmed Wii so that the top side is facing up. Align the Bluetooth leg of Xii-Flex Ultra on the top side of the Wii to see where the vias on the flex are positioned.
 
 9.  Move the Bluetooth leg out of the way, then scrape the Bluetooth traces in a staggered manner, in order to minimize the chances of connections bridging. Temporarily align the flex to view where each castellated edge is. Scrape the board in those locations.
 
 <ImageCarousel step="xii-strip-flex-install/flex-scraped-bt" />
 
-10.  Realign the Bluetooth leg, hold it down with tape, then solder both Bluetooth traces. Check for continuity and if they are bridging before continuing to solder the three GND points.
+10.  Realign the Bluetooth leg, hold it down with tape, then solder both Bluetooth traces. Check for continuity and if they are bridging before continuing to solder the three `GND` points.
 
 <ImageCarousel step="xii-strip-flex-install/flex-soldered-bt" />
