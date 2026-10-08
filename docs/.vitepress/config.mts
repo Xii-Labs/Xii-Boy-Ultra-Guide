@@ -71,7 +71,7 @@ export default defineConfig({
       message: '<a href="https://github.com/Bryceshaw06/Xii-Boy-Ultra-Guide">Released under the GPLv3 License.</a>'
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/dgDmBvEUQG' },
+      { icon: 'discord', link: 'https://discord.gg/VChz7vJVGP' },
       { icon: 'github', link: 'https://github.com/Xenii1642/Xii-Boy-Ultra' }]
   },
   vite: {

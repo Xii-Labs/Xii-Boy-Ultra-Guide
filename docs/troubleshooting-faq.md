@@ -1,6 +1,6 @@
 # Troubleshooting & FAQ
 
-If any questions or issues aren't addressed here, please ask in the [Xii-Labs Discord Server](https://discord.gg/dgDmBvEUQG). Also, it may be helpful to read through the original [worklogs on BitBuilt](https://www.google.com/search?q=site%3Abitbuilt.net+Xii-Boy+Ultra+Worklog).
+If any questions or issues aren't addressed here, please ask in the [Xii-Labs Discord Server](https://discord.gg/VChz7vJVGP). Also, it may be helpful to read through the original [worklogs on BitBuilt](https://www.google.com/search?q=site%3Abitbuilt.net+Xii-Boy+Ultra+Worklog).
 
 ## Common Issues
 

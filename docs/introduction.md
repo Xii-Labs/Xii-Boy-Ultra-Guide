@@ -28,4 +28,4 @@ For more information, view the kit details [here](LINK HERE)
 
 In this method, carrier PCBs will be created by a PCB fabrication house such as **PCBWay** or **JLCPCB**. Small components will be purchased from an electronic parts distributor like **Digikey** or **Mouser**. The 3D printed shells will be printed through a service like **PCBWay** or **JLC3DP** or at a local makerspace. 
 
-In-depth instructions to sourcing may be available on the **Xii-Boy Ultra Guide** in the future. For the time being though, please refer to the [Github Repository](https://github.com/Xenii1642/Xii-Boy-Ultra) for general information and ask in the [Discord Server](https://discord.gg/dgDmBvEUQG) for specific questions.
+In-depth instructions to sourcing may be available on the **Xii-Boy Ultra Guide** in the future. For the time being though, please refer to the [Github Repository](https://github.com/Xenii1642/Xii-Boy-Ultra) for general information and ask in the [Discord Server](https://discord.gg/VChz7vJVGP) for specific questions.

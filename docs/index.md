@@ -38,7 +38,7 @@ hero:
     <p class="card-description">View the original worklogs and build threads from the community that started it all.</p>
   </a>
 
-  <a class="card" href="https://discord.gg/dgDmBvEUQG" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://discord.gg/VChz7vJVGP" target="_blank" rel="noopener noreferrer">
     <h3 class="card-title">
       <span class="card-icon">
         <iconify-icon icon="qlementine-icons:discord-16" width="28" height="28"></iconify-icon>
