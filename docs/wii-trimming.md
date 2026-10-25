@@ -6,14 +6,14 @@ The reason Wii portables of this size are possible is because of motherboard tri
 
 These diagrams contain annotated images of the bare Wii motherboard. Use them as a reference when drawing trim lines, removing components, or checking important traces.
 
-![Wii Trim Diagram - Bottom](/images/diagrams/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.png)
-<a href="/images/diagrams/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
+![Wii Trim Diagram - Bottom](/images/diagrams/XII-BOY-ULTRA-TRIM-DIAGRAM-BOTTOM.webp)
+<a href="/images/diagrams/XII-BOY-ULTRA-TRIM-DIAGRAM-BOTTOM.webp" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
-![Wii Trim Diagram - Top](/images/diagrams/WII-TRIM-DIAGRAM-TOP.png)
-<a href="/images/diagrams/WII-TRIM-DIAGRAM-TOP.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
+![Wii Trim Diagram - Top](/images/diagrams/WII-TRIM-DIAGRAM-TOP.webp)
+<a href="/images/diagrams/WII-TRIM-DIAGRAM-TOP.webp" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
-![Wii Voltage Diagram - Top](/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.png)
-<a href="/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
+![Wii Voltage Diagram - Top](/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.webp)
+<a href="/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.webp" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
 ## Trimming Steps  
 

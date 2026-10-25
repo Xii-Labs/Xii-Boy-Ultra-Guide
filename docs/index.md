@@ -15,7 +15,7 @@ hero:
 <div class="browse-pages-title">✨ Or Explore More ✨</div>
 
 <div class="card-grid">
-  <a class="card" href="https://github.com/Xenii1642/Xii-Boy-Ultra" target="_blank" rel="noopener noreferrer">
+  <a class="card" href="https://github.com/Xii-Labs/Xii-Boy-Ultra" target="_blank" rel="noopener noreferrer">
     <h3 class="card-title">
       <span class="card-icon">
         <iconify-icon icon="ph:git-fork-bold" width="28" height="28"></iconify-icon>

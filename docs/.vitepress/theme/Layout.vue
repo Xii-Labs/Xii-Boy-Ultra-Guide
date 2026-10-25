@@ -22,8 +22,14 @@ const enableTransitions = () =>
 onMounted(() => {
   activeVideo.value = isDark.value ? 'dark' : 'light'
 
-  lightVideoRef.value?.play().catch(() => { })
-  darkVideoRef.value?.play().catch(() => { })
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  if (prefersReducedMotion) {
+    lightVideoRef.value?.pause()
+    darkVideoRef.value?.pause()
+  } else {
+    lightVideoRef.value?.play().catch(() => { })
+    darkVideoRef.value?.play().catch(() => { })
+  }
 })
 
 watch(isDark, (dark) => {

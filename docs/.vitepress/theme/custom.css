@@ -160,3 +160,53 @@ html.dark {
   mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
+
+
+/* --- Workbench Print Stylesheet --- */
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPLocalNav,
+  .VPFooter,
+  .prev-next,
+  .video-container,
+  .DocSearch,
+  .edit-info,
+  .browse-pages-title,
+  .card-grid {
+    display: none !important;
+  }
+
+  .VPContent,
+  .VPDoc,
+  .VPDoc .content-container,
+  .VPDoc .content {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .vp-doc h1,
+  .vp-doc h2,
+  .vp-doc h3,
+  .vp-doc p,
+  .vp-doc li {
+    color: #000000 !important;
+  }
+
+  .main-carousel .splide__slide img,
+  .vp-doc img {
+    max-height: 450px !important;
+    page-break-inside: avoid;
+  }
+
+  .custom-block {
+    page-break-inside: avoid;
+    border: 1px solid #ccc !important;
+  }
+}

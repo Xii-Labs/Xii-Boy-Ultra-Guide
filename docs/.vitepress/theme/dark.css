@@ -17,8 +17,3 @@
     clip-path: circle(150% at var(--darkX) var(--darkY));
   }
 }
-
-/* Optional: This makes images slightly less bright in dark mode for better eye comfort. */
-.dark img {
-    filter: brightness(0.8);
-}

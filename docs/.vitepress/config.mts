@@ -9,11 +9,51 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://guide.xii-labs.com'
   },
+  transformPageData(pageData) {
+    const canonicalUrl = `https://guide.xii-labs.com/${pageData.relativePath.replace(/\.md$/, '').replace(/(^|\/)index$/, '')}`
+    const isHomePage = pageData.relativePath === 'index.md'
+
+    const schema = isHomePage
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          'name': 'Xii-Boy Ultra Guide',
+          'url': 'https://guide.xii-labs.com',
+          'description': 'A Guide to Building the First Wire-Free Portable Wii',
+          'publisher': {
+            '@type': 'Organization',
+            'name': 'Xii-Labs',
+            'url': 'https://xii-labs.com'
+          }
+        }
+      : {
+          '@context': 'https://schema.org',
+          '@type': 'TechArticle',
+          'headline': pageData.title || 'Xii-Boy Ultra Guide',
+          'description': pageData.description || 'Step-by-step build documentation for the Xii-Boy Ultra portable Nintendo Wii.',
+          'url': canonicalUrl,
+          'mainEntityOfPage': {
+            '@type': 'WebPage',
+            '@id': canonicalUrl
+          },
+          'publisher': {
+            '@type': 'Organization',
+            'name': 'Xii-Labs',
+            'url': 'https://xii-labs.com'
+          }
+        }
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify(schema)
+    ])
+  },
   head: [
     ['script', { src: 'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
-    ['meta', { name: 'theme-color', content: '#67f0a7' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Xii-Labs Guides' }],
     ['meta', { property: 'og:url', content: 'https://guide.xii-labs.com' }],
