@@ -31,7 +31,7 @@ This error can occur if there is a **break in the USB Data + (`D+`) and Data - (
 
 If the build is experiencing one or more of the following symptoms:
 * Random crashes
-* System Freezes
+* System freezes
 * Temperature displaying `-273°C`
 * Battery only reading 0%
 * GC+ version switching between `GC+1.0` and `GC+2.0` in the settings menu
@@ -45,7 +45,7 @@ If temps reading at `-273°C` is the *only* issue at hand, then check the connec
 ### Fuzzy Display or Poor Image Quality
 
 1.  Ensure the **display** and **RVL-DD** both have solid connections to their connectors and carrier PCBs.
-2.  If the issue persists, download [**Settings Editor GUI**](https://hbb1.oscwii.org/api/contents/Settings-Editor-GUI/Settings-Editor-GUI.zip)  by JoostinOnline and extract the Homebrew application to the `/apps/` folder in the root of the Xii-Boy’s SD card.
+2.  If the issue persists, download [**Settings Editor GUI**](https://hbb1.oscwii.org/api/contents/Settings-Editor-GUI/Settings-Editor-GUI.zip) by JoostinOnline and extract the Homebrew application to the `/apps/` folder in the root of the Xii-Boy’s SD card.
 3.  Navigate to the Homebrew section in RVLoader and boot Settings Editor GUI. Change the video mode to `480p (Progressive)`. Exit, and test if the issue is resolved.
 
 ### No Power and Flashing Multi-Colored LED

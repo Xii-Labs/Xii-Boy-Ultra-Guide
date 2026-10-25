@@ -1,6 +1,6 @@
 # Xii-Strip & Xii-Flex Install
 
-Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality. While Xii-Strip supplies power to the voltage rails on the trimmed Wii, Xii-Flex Ultra breaks out all the neccesary connections from the vias on the Wii to a 50 pin connector on the Main PCB. Because of how many connections are broken out, it can be easy to bridge connections, so follow each step exactly and check for bridges before continuing. Be prepared to reflow as necessary.
+Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality. While Xii-Strip supplies power to the voltage rails on the trimmed Wii, Xii-Flex Ultra breaks out all the necessary connections from the vias on the Wii to a 50-pin connector on the Main PCB. Because of how many connections are broken out, it can be easy to bridge connections, so follow each step exactly and check for bridges before continuing. Be prepared to reflow as necessary.
 
 ## Installing Xii-Strip
 
@@ -20,7 +20,7 @@ Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality
 
 <!-- TODO: Diagram, top side pics -->
 
-1.  Flip the trimmed Wii so that the bottom side is facing up. Refer to [Scraping Vias](/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the soldermask.
+1.  Flip the trimmed Wii so that the bottom side is facing up. Refer to [Scraping Vias](/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the solder mask.
 
 2.  Refer to [Flex Soldering](/microsoldering-methods#flex-soldering) for the following steps.
 

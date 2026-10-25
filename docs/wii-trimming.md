@@ -50,7 +50,7 @@ Do NOT apply force with the Dremel. The wheel does the cutting; you are only gui
 :::
 
 8. Once trimming is complete, sand the edges with progressively finer grits of sandpaper:  
-**180 → 200 → 300 → 400 → 600 → 800 → 1000 grit** (anything higher than 1000 grit is optional). Low grits remove more of the board; high grits remove small amounts and create a smooth finish. Sand away burs or extrusions. At 1000 grit, each of the four layers should be distinct and the sides smooth.  
+**180 → 200 → 300 → 400 → 600 → 800 → 1000 grit** (anything higher than 1000 grit is optional). Low grits remove more of the board; high grits remove small amounts and create a smooth finish. Sand away burrs or extrusions. At 1000 grit, each of the four layers should be distinct and the sides smooth.  
 
 <ImageCarousel step="wii-trimming/trimming-steps" />
 
@@ -69,7 +69,7 @@ The trimmed Wii motherboard contains a `1.8v LDO` (Voltage regulator) which need
 <ImageCarousel step="wii-trimming/1v8ldo" />
 
 :::details Using a Soldering Iron Instead of a Hot Air Gun
-It is also possible to remove the `1.8v LDO` using a soldering iron and dremel instead of a hot air gun. To do this, cut the 5 pins on the bottom of the LDO using the dremel without cutting into the PCB. Then, heat each pin with a soldering iron and remove them one-by-one. After the pins are removed, set the soldering iron to a high temperature (`425°C`) and let it heat the top LDO pad until the LDO is able to slide off. 
+It is also possible to remove the `1.8v LDO` using a soldering iron and Dremel instead of a hot air gun. To do this, cut the 5 pins on the bottom of the LDO using the Dremel without cutting into the PCB. Then, heat each pin with a soldering iron and remove them one-by-one. After the pins are removed, set the soldering iron to a high temperature (`425°C`) and let it heat the top LDO pad until the LDO is able to slide off. 
 :::
 
 ## C4 Capacitor Removal

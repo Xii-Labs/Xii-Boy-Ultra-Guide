@@ -46,7 +46,7 @@ A trace is a thin, conductive path on a PCB that allows electrical signals to tr
 
 ![alt text](images/basic-electronics/vias.png)
 
-A via is a metal plated hole drilled through the PCB that provides a conductive pathway allowing electrical connections between different layers of a PCB. It acts like a trace that passes through one or more layers, making it possible for signals to travel between components on different levels of the board. For example, in a multi layer PCB, a via connects a trace on the top layer to another trace on the bottom layer, allowing components on different layers to connect.
+A via is a metal plated hole drilled through the PCB that provides a conductive pathway allowing electrical connections between different layers of a PCB. It acts like a trace that passes through one or more layers, making it possible for signals to travel between components on different levels of the board. For example, in a multi-layer PCB, a via connects a trace on the top layer to another trace on the bottom layer, allowing components on different layers to connect.
 
 <!-- Maybe TODO?
 ## What is a Pad?

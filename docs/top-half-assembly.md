@@ -58,7 +58,7 @@ After the click, the display will be held in by friction and the lip. It is not 
 
 ## Face Buttons
 
-1.  Retrieve the DS lite buttons and D-pad from **Bag T3**. Place the DS lite buttons and D-pad in their respective slots. The buttons have notches to ensure correct orientation. The D-pad, however, can be installed in any orientation.
+1.  Retrieve the DS Lite buttons and D-pad from **Bag T3**. Place the DS Lite buttons and D-pad in their respective slots. The buttons have notches to ensure correct orientation. The D-pad, however, can be installed in any orientation.
 
 <ImageCarousel step="top-half-assembly/face-buttons" />
 
@@ -80,11 +80,11 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <ImageCarousel step="top-half-assembly/speaker-connect" />
 
-2.  Retrieve the rumble motor from **Bag T5**. Connect the rumble motor to the picolock connector at the bottom of the Controller PCB. The picolock connector is keyed and will only insert in one direction. Do not force it. Take note of the polarity: **The red wire on the rumble motor connects to the `+` pad, and the blue to the `-` pad.**
+2.  Retrieve the rumble motor from **Bag T5**. Connect the rumble motor to the PicoLock connector at the bottom of the Controller PCB. The PicoLock connector is keyed and will only insert in one direction. Do not force it. Take note of the polarity: **The red wire on the rumble motor connects to the `+` pad, and the blue to the `-` pad.**
 
 <ImageCarousel step="top-half-assembly/rumble-connect" />
 
-3.  Unlock the ZIF connector on the Controller PCB labeled `To Xii-DD`. Retrieve an 18 pin FFC from **Bag G5** and insert it with the blue stiffener facing up. Then, lock the connector.
+3.  Unlock the ZIF connector on the Controller PCB labeled `To Xii-DD`. Retrieve an 18-pin FFC from **Bag G5** and insert it with the blue stiffener facing up. Then, lock the connector.
 
 <ImageCarousel step="top-half-assembly/controller-pcb-zif" />
 
@@ -102,7 +102,7 @@ The order of the following steps is not optimal and needs to be updated. Use as 
 
 <ImageCarousel step="top-half-assembly/controller-pcb-screw" />
 
-2.  On the Xii-DD PCB, unlock the 18 pin ZIF connector near the top and insert the FFC coming from the Controller PCB. Lock the ZIF connector when finished.
+2.  On the Xii-DD PCB, unlock the 18-pin ZIF connector near the top and insert the FFC coming from the Controller PCB. Lock the ZIF connector when finished.
 
 <ImageCarousel step="top-half-assembly/xii-dd-controller-zif" />
 

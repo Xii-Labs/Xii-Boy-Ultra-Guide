@@ -8,7 +8,7 @@
 </p>
 
 
-The official online guide to build a **Xii-Boy Ultra**! Site was made using Vitepress. **Access the guide here**: [guide.xii-labs.com](https://guide.xii-labs.com/)
+The official online guide to build a **Xii-Boy Ultra**! Site was made using VitePress. **Access the guide here**: [guide.xii-labs.com](https://guide.xii-labs.com/)
 
 
 ## ✨ Credits ✨

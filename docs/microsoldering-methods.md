@@ -9,7 +9,7 @@ Solder is a metal alloy that acts like glue for electronics. It holds components
 ### General Soldering Process:
 
 1. Power on the iron and set the temperature to `350°C`.
-2. Clean residual solder off the tip using a **brass wool** or a **damp sponge**.
+2. Clean residual solder off the tip using **brass wool** or a **damp sponge**.
 3. Apply **flux** to the pad that will be soldered. The **flux** is essential to letting the solder flow, and prevents bridging pads.
 4. Place the **soldering iron** on the pad. Allow it to heat the pad for a second.
 5. Put the end of the solder roll on the joint between the iron tip and the pad. Allow the solder to melt briefly before removing the solder roll. Then, remove the iron.

@@ -4,7 +4,7 @@
 
 There are several revisions of the Nintendo Wii motherboard, but for this guide, only one difference really matters: the type of processor the board uses. To build a portable Wii that runs cool and uses less power, a motherboard with the **Hollywood-1 SoC** (**S**ystem **o**n **C**hip) is required. These are often called **“4-layer Wiis”** because the **Hollywood-1** is always paired with a **4-layer PCB** as opposed to the older revision’s **6-layer PCB**.
 
-**The following motherboard revisions will always be a 4-layers:**
+**The following motherboard revisions will always be 4-layer:**
 
 * `RVL-CPU-40`
 * `RVL-CPU-50`
@@ -48,7 +48,7 @@ Before proceeding, the Wii must be "softmodded" with the **Homebrew Channel**. T
 
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step3.webp)
 
-4.  Navigate to the computer’s downloads folder (**Finder** on MacOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
+4.  Navigate to the computer’s downloads folder (**Finder** on macOS, **File Explorer** on Windows) and double-click the `.zip` archive to extract it.
 
 5.  A folder will be created with the same name, without the `.zip` extension. Open this folder.
 
@@ -59,7 +59,7 @@ Before proceeding, the Wii must be "softmodded" with the **Homebrew Channel**. T
 ![alt text](assets/wii-preparation/rvloader-download/rvloader_step6.webp)
 
 :::details MicroSD Formatting Notice
-The MicroSD card must be formatted as FAT32 in MBR with a 32k cluster size in order to work. Most will come in this format out of the box, however if any issues arise format with [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) on Windows or `Disk Utility` on MacOS.
+The MicroSD card must be formatted as FAT32 in MBR with a 32k cluster size in order to work. Most will come in this format out of the box, however if any issues arise, format it with [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) on Windows or `Disk Utility` on macOS.
 :::
 
 7.  Eject the drive and remove it. Then insert the MicroSD card into the MicroSD to USB adapter and plug it into one of the Wii’s back USB ports.

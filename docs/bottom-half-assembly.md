@@ -53,7 +53,7 @@ This trigger mod is **only** compatible with a specific revision of 3rd party jo
 
 ### Trigger PCB (XBU-005)
 
-1.  Retrieve the RZ and LZ bumper buttons from **Bag G4**. Place the RZ and LZ bumper buttons.
+1.  Retrieve the RZ and LZ bumper buttons from **Bag G4**. Place the RZ and LZ bumper buttons in their respective slots.
 
 <ImageCarousel step="bottom-half-assembly/rz-lz-buttons" />
 
@@ -110,7 +110,7 @@ The ribbon cables on the triggers will need to be bent in order to fit properly.
 
 ### Main PCB Preparation
 
-1. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the **Main PCB**. The module should have a small cushion to keep it adhered to the **Main PCB**. If the cushion ripped or is missing, a strip of double sided tape works instead.
+1. Take the Bluetooth module that was retrieved from the Wii’s PCB and insert it into the gray connector on the bottom of the **Main PCB**. The module should have a small cushion to keep it adhered to the **Main PCB**. If the cushion ripped or is missing, a strip of double-sided tape works instead.
 
 <ImageCarousel step="bottom-half-assembly/bluetooth-module" />
 
@@ -162,7 +162,7 @@ The ribbon cables on the triggers will need to be bent in order to fit properly.
 <ImageCarousel step="bottom-half-assembly/18650-install" />
 
 :::danger IMPORTANT: Battery Safety
-The orientation of the batteries is crucial, inserting them backwards can cause permanent damage to the RVL-PMS2 and the rest of the **Xii-Boy Ultra**. Connecting two batteries in parallel at drastically different voltages can cause a fire in the worst case scenario, and damage the battery capacity at best. If the batteries are not within ~0.1v of each other, charge one until it is equivalent.
+The orientation of the batteries is crucial, inserting them backwards can cause permanent damage to the RVL-PMS2 and the rest of the **Xii-Boy Ultra**. Connecting two batteries in parallel at drastically different voltages can cause a fire in the worst-case scenario, and damage the battery capacity at best. If the batteries are not within ~0.1v of each other, charge one until it is equivalent.
 :::
 
 5. Apply thermal paste to the copper plate in two `X` shapes. One large `X` for Hollywood, and a smaller `X` for Broadway.
@@ -187,6 +187,6 @@ This is not pictured, as it was added in a later revision. It replaces the pogo 
 
 <ImageCarousel step="bottom-half-assembly/xii-dd-shielded-zif" />
 
-10. Close both halves and connect them with six `6mm` Phillips screws from **Bag G3**. The screwholes in the bottom shell are recessed, so a screwdriver with a long tip is required.
+10. Close both halves and connect them with six `6mm` Phillips screws from **Bag G3**. The screw holes in the bottom shell are recessed, so a screwdriver with a long tip is required.
 
 **The Xii-Boy Ultra Assembly is now complete. Proceed to RVLoader setup.**

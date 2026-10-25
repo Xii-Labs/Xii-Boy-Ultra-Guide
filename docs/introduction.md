@@ -9,7 +9,7 @@ This guide is made to help modders assemble their own with step-by-step instruct
 
 ## Kit Availability
 
-The **Xii-Boy Ultra** had a limited run of beta kits released, and this guide is written around the assembly of those kits. These kits are no longer available for purchase. We listened to all the feedback we recieved, are currently working on the **Xii-Boy Neo**, a new Xii-Boy model that will be available for purchase as a kit.
+The **Xii-Boy Ultra** had a limited run of beta kits released, and this guide is written around the assembly of those kits. These kits are no longer available for purchase. We listened to all the feedback we received, and are currently working on the **Xii-Boy Neo**, a new Xii-Boy model that will be available for purchase as a kit.
 
 However, the **Xii-Boy Ultra** is completely open source, meaning modders can still source all of the necessary parts to build their own. All required files and ordering specifications can be found in the [GitHub Repository](https://github.com/Xii-Labs/Xii-Boy-Ultra). These can be used to order PCBs, components, and 3D printed shells from suppliers of choice.
 

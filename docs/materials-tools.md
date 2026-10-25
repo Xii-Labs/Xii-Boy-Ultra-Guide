@@ -2,7 +2,7 @@
 
 ![lab photo](assets/materials-tools/header/lab.webp)
 
-To make the **Xii-Boy Ultra** build as simple as possible, we’ve organized the required materials and tools into an easily accessible list. **Amazon** links are provided whenever possible, but note that cheaper prices may be avaiable at other retailers such as **Aliexpress**.
+To make the **Xii-Boy Ultra** build as simple as possible, we’ve organized the required materials and tools into an easily accessible list. **Amazon** links are provided whenever possible, but note that cheaper prices may be available at other retailers such as **AliExpress**.
 
 ## Soldering Tools
 
@@ -26,10 +26,10 @@ A **Hot Air Gun** or **Hot Air Rework Station** is useful for heating large comp
 - **Dremel:** [Dremel Tool](https://a.co/d/eT733dP)  
 - **EZ Lock Diamond Cutting Wheels:** [Diamond Cutting Wheels](https://www.homedepot.com/p/Dremel-EZ-Lock-Rotary-Tool-Mandrel-with-EZ-Lock-1-1-2-in-Rotary-Tool-Diamond-Tile-Cutting-Wheel-for-Tile-and-Ceramic-Materials-EZ402-EZ545/313823691)  
 :::details Will Other Types of Wheels Work?
-**No!** The default wheels are not sharp enough and will struggle to cut through the Wii motherboard. This makes it more likely to **skip** and unintentionally cut components **or yourself**. Wheels with teeth (like on a table saw) are more rare on  dremels, but they are **extremely dangerous** and should be **avoided at all costs** as well. Use a diamond wheel for project, preferably EZ Lock.
+**No!** The default wheels are not sharp enough and will struggle to cut through the Wii motherboard. This makes it more likely to **skip** and unintentionally cut components **or yourself**. Wheels with teeth (like on a table saw) are more rare on rotary tools or Dremels, but they are **extremely dangerous** and should be **avoided at all costs** as well. Use a diamond wheel for this project, preferably EZ Lock.
 :::
 - **Pliers (Needle Nose and Diagonal Cutting):** [Pliers Set](https://a.co/d/cr09Rg4)  
-- **Fine Tipped Tweezers:** [Tweezers](https://a.co/d/5OKSr2a)  
+- **Fine-Tipped Tweezers:** [Tweezers](https://a.co/d/5OKSr2a)  
 - **Screwdriver Set:** [Screwdriver Set](https://a.co/d/jk59Y1K)  
 :::details Tri-Point (Y0) Screwdriver Length
 Ensure the Tri-Point (Y0) screwdriver has a long shaft to reach recessed screws in the Wii. The linked set has one with the correct sizing.
@@ -49,14 +49,14 @@ Ensure the Tri-Point (Y0) screwdriver has a long shaft to reach recessed screws 
 - **Multimeter:** [Multimeter](https://a.co/d/7Qe2EVw)  
 - **24 AWG Wire Set:** [Wire Set](https://a.co/d/bMAj78b)  
 - **MicroSD to USB Adapter:** [MicroSD Adapter](https://a.co/d/g2JveM3)  
-- **Clear Tape:**  [Scotch Magic Tape](https://a.co/d/2b0gQCw)
-- **91% Isopropyl Alcohol.** [91% IPA](https://a.co/d/0dYH3O8)
+- **Clear Tape:** [Scotch Magic Tape](https://a.co/d/2b0gQCw)
+- **91% Isopropyl Alcohol:** [91% IPA](https://a.co/d/0dYH3O8)
 - **Cotton Swabs / Q-Tips:** [Cotton Swabs](https://a.co/d/7KwuABb)
 
 
 ## Other / Sourcing
 
-- **4-Layer Wii (Ebay Link):** [For Parts or Repair Wii](https://www.ebay.com/sch/i.html?_nkw=Nintendo+Wii+Broken+Disc+Drive&_sacat=0&_from=R40&_sop=10&rt=nc&LH_BIN=1)  
+- **4-Layer Wii (eBay Link):** [For Parts or Repair Wii](https://www.ebay.com/sch/i.html?_nkw=Nintendo+Wii+Broken+Disc+Drive&_sacat=0&_from=R40&_sop=10&rt=nc&LH_BIN=1)  
 :::details What to Search For
 Broken Wiis can often be found in the **$20-$25** range after shipping. When portabilizing, the disc drive is scrapped, so search for **4-layer Wiis** with non-functional drives. Use the **[Wii Revision Checker](https://wii-revision.netlify.app/)** and refer to [Wii Preparation](/wii-preparation#wii-preparation) to confirm the Wii is 4-layers before purchasing.
 :::
