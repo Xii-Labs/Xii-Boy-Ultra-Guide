@@ -5,11 +5,18 @@ export default defineConfig({
   description: 'A Guide to Building the First Wire-Free Portable Wii',
   base: '/',
   cleanUrls: true,
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://guide.xii-labs.com'
+  },
   head: [
     ['script', { src: 'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+    ['meta', { name: 'theme-color', content: '#67f0a7' }],
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Xii-Labs Guides' }],
+    ['meta', { property: 'og:url', content: 'https://guide.xii-labs.com' }],
     ['meta', { property: 'og:title', content: 'Xii-Boy Ultra Guide' }],
     ['meta', { property: 'og:description', content: 'A Guide to Building the First Wire-Free Portable Wii' }],
     ['meta', { property: 'og:image', content: 'https://guide.xii-labs.com/social-card.png' }],
@@ -69,12 +76,19 @@ export default defineConfig({
       }
     },
     outline: { level: 'deep', label: 'On This Page' },
+    lastUpdated: {
+      text: 'Last updated',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }
+    },
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} Bryce Shaw`,
-      message: '<a href="https://github.com/Bryceshaw06/Xii-Boy-Ultra-Guide">Released under the GPLv3 License.</a>'
+      copyright: `Copyright © ${new Date().getFullYear()} Xii-Labs`,
+      message: '<a href="https://github.com/Xii-Labs/Xii-Boy-Ultra-Guide">Released under the GPLv3 License.</a>'
     },
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/VChz7vJVGP' },
-      { icon: 'github', link: 'https://github.com/Xenii1642/Xii-Boy-Ultra' }]
+      { icon: 'github', link: 'https://github.com/Xii-Labs/Xii-Boy-Ultra' }]
   }
 })
