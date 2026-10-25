@@ -12,8 +12,12 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Xii-Boy Ultra Guide' }],
     ['meta', { property: 'og:description', content: 'A Guide to Building the First Wire-Free Portable Wii' }],
-    ['meta', { property: 'og:image', content: '/social-card.png' }],
-    ['meta', { property: 'twitter:card', content: 'summary_large_image' }]
+    ['meta', { property: 'og:image', content: 'https://guide.xii-labs.com/social-card.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:type', content: 'image/png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://guide.xii-labs.com/social-card.png' }]
   ],
   themeConfig: {
     logo: { light: '/logo-dark.svg', dark: '/logo-light.svg', alt: 'XBU Logo' },
