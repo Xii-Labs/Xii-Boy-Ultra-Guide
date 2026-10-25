@@ -80,7 +80,7 @@ The MicroSD card must be formatted as FAT32 in MBR with a 32k cluster size in or
 Games must be dumped **before** trimming the Wii, as the **Xii-Boy Ultra** does not have a disc drive, and games are loaded from the MicroSD card.
 :::
 
-Full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website](https://dolphin-emu.org/docs/guides/ripping-games/). To access game dumping Homebrew from the RVLoader menu, use the C-Stick to navigate to the Homebrew loader section. Wii games need to be stored as `.wbfs` files, and GameCube games need to be stored as `.iso` files. Exact file placement is addressed in [RVLoader Setup](https://xbu-guide.me/rvloader-setup).
+Full guides on dumping games can be found on [Wii Hacks Guide](https://wii.hacks.guide/dump-games.html) and [Dolphin's website](https://dolphin-emu.org/docs/guides/ripping-games/). To access game dumping Homebrew from the RVLoader menu, use the C-Stick to navigate to the Homebrew loader section. Wii games need to be stored as `.wbfs` files, and GameCube games need to be stored as `.iso` files. Exact file placement is addressed in [RVLoader Setup](/rvloader-setup).
 
 ## Disassemble the Wii
 

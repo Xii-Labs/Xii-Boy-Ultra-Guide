@@ -61,7 +61,7 @@ Silkscreen is the layer on a PCB that contains printed ink labels, symbols, and 
 
 ## What is a Capacitor?
 
-![alt text](/images/basic-electronics/smd_capacitor.png)
+![alt text](images/basic-electronics/smd_capacitor.png)
 
 Capacitors come in many shapes and sizes. They store electrical charge and release it when needed. Capacitors help smooth out signals and can supply temporary power during brief interruptions. They are referenced by the letter `C` on silkscreen markings.
 

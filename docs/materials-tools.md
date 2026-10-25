@@ -58,5 +58,5 @@ Ensure the Tri-Point (Y0) screwdriver has a long shaft to reach recessed screws 
 
 - **4-Layer Wii (Ebay Link):** [For Parts or Repair Wii](https://www.ebay.com/sch/i.html?_nkw=Nintendo+Wii+Broken+Disc+Drive&_sacat=0&_from=R40&_sop=10&rt=nc&LH_BIN=1)  
 :::details What to Search For
-Broken Wiis can often be found in the **$20-$25** range after shipping. When portabilizing, the disc drive is scrapped, so search for **4-layer Wiis** with non-functional drives. Use the **[Wii Revision Checker](https://wii-revision.netlify.app/)** and refer to [Wii Preparation](https://xbu-guide.me/wii-preparation#wii-preparation) to confirm the Wii is 4-layers before purchasing.
+Broken Wiis can often be found in the **$20-$25** range after shipping. When portabilizing, the disc drive is scrapped, so search for **4-layer Wiis** with non-functional drives. Use the **[Wii Revision Checker](https://wii-revision.netlify.app/)** and refer to [Wii Preparation](/wii-preparation#wii-preparation) to confirm the Wii is 4-layers before purchasing.
 :::

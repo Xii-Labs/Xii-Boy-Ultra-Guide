@@ -8,7 +8,7 @@ Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality
 
 1.  Retrieve Xii-Strip FPC from **Bag B7**. Align it on top of the trimmed Wii so that it lays directly against the PCB.
 
-2.  Refer to [General Soldering](https://xbu-guide.me/microsoldering-methods#general-soldering) for a more extensive guide on the process of soldering joints.
+2.  Refer to [General Soldering](/microsoldering-methods#general-soldering) for a more extensive guide on the process of soldering joints.
 
 3.  Heat the 1.8v pad on the Wii until the solder melts, then adjust the soldering iron so that it heats both the pad on the Wii, and the pad on Xii-Strip. Add solder to the joint between the iron tip and both pads, allowing it to melt briefly before removing the solder roll.
 
@@ -20,9 +20,9 @@ Both Xii-Strip and Xii-Flex Ultra are crucial to the trimmed Wii's functionality
 
 <!-- TODO: Diagram, top side pics -->
 
-1.  Flip the trimmed Wii so that the bottom side is facing up. Refer to [Scraping Vias](https://xbu-guide.me/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the soldermask.
+1.  Flip the trimmed Wii so that the bottom side is facing up. Refer to [Scraping Vias](/microsoldering-methods#scraping-vias) and scrape each of the highlighted vias to expose the copper beneath the soldermask.
 
-2.  Refer to [Flex Soldering](https://xbu-guide.me/microsoldering-methods#flex-soldering) for the following steps.
+2.  Refer to [Flex Soldering](/microsoldering-methods#flex-soldering) for the following steps.
 
 3.  Apply solder and distribute it so each via is fully tinned. Ensure there is no bridging between adjacent vias.
 

@@ -22,3 +22,5 @@ dist
 .eslintcache
 docs/.vitepress/.temp
 result
+preview.bat
+preview.ps1

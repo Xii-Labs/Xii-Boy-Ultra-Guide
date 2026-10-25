@@ -4,14 +4,19 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 export default defineConfig({
   plugins: [
     ViteImageOptimizer({
+      cache: true,
       logStats: true,
       includePublic: false,
       include: /docs\/assets\//,
-      webp: {
+      png: {
         quality: 80
       },
-      avif: {
+      jpeg: {
         quality: 80
+      },
+      webp: {
+        quality: 80,
+        effort: 4
       }
     })
   ]

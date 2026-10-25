@@ -6,14 +6,14 @@ The reason Wii portables of this size are possible is because of motherboard tri
 
 These diagrams contain annotated images of the bare Wii motherboard. Use them as a reference when drawing trim lines, removing components, or checking important traces.
 
-![alt text](<XII-BOY ULTRA TRIM DIAGRAM - BOTTOM.png>)
-[(View Image in a New Tab)](https://xbu-guide.me/assets/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.CGYBaFES.png)
+![Wii Trim Diagram - Bottom](/images/diagrams/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.png)
+<a href="/images/diagrams/XII-BOY%20ULTRA%20TRIM%20DIAGRAM%20-%20BOTTOM.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
-![alt text](WII-TRIM-DIAGRAM-TOP.png)
-[(View Image in a New Tab)](https://xbu-guide.me/assets/WII-TRIM-DIAGRAM-TOP.BOa12yLm.png)
+![Wii Trim Diagram - Top](/images/diagrams/WII-TRIM-DIAGRAM-TOP.png)
+<a href="/images/diagrams/WII-TRIM-DIAGRAM-TOP.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
-![alt text](WII-VOLTAGE-DIAGRAM-TOP.png)
-[(View Image in a New Tab)](https://xbu-guide.me/assets/WII-VOLTAGE-DIAGRAM-TOP.DStXnSMU.png)
+![Wii Voltage Diagram - Top](/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.png)
+<a href="/images/diagrams/WII-VOLTAGE-DIAGRAM-TOP.png" target="_blank" rel="noopener noreferrer">(View Image in a New Tab)</a>
 
 ## Trimming Steps  
 
@@ -60,7 +60,7 @@ Do NOT apply force with the Dremel. The wheel does the cutting; you are only gui
 
 The trimmed Wii motherboard contains a `1.8v LDO` (Voltage regulator) which needs to be removed to work with the **RVL-PMS2**.
 
-1. On the top of the trimmed Wii, locate the `1.8v LDO` (Designated as `U4` on the [silkscreen](https://xbu-guide.me/basic-electronics#what-is-silkscreen)) and apply flux to the top pad and bottom 5 pins.
+1. On the top of the trimmed Wii, locate the `1.8v LDO` (Designated as `U4` on the [silkscreen](/basic-electronics#what-is-silkscreen)) and apply flux to the top pad and bottom 5 pins.
 2. Use a soldering iron and flood the pad and pins with excess solder. The pins are okay to connect to each other here since no power is being applied.
 3. Set a hot air gun/station to `425°C at 80% airflow` and use a medium or large nozzle. Aim the nozzle at the `1.8v LDO` and keep it only a few cm away. Move the hot air gun around in a circular motion over the part, and continue until all the solder is molten. 
 4. Use a pair of tweezers to slide the `1.8v LDO` off the board. **Do not apply excessive force**, as the solder may not be completely molten and traces would rip. 
@@ -93,7 +93,7 @@ Once the resistances are correct and the board passes testing, proceed to the ne
 1. Connect the RVL-PMS2 to the Wii. Solder a wire from each voltage pad on the RVL-PMS2 to the respective pad on the Wii (e.g., 3.3v → 3.3v). Use 24 AWG wire and keep wires short.  
 2. Connect outlined AVE pads on the Wii to a stripped RCA cable. The original Wii composite cable and a trimmed video connector can work in a pinch. Connect the cable to a composite-compatible display.  
 
-![alt text](composite-points-old.png)
+![Composite Points](/images/diagrams/composite-points-old.png)
 
 3. Connect a battery to the 'B+' and 'B-' pads on the RVL-PMS2. Short the 'BTN' pad with 'GND' for three seconds using a button or tweezers to activate the RVL-PMS2 and output all voltage rails.  
 4. The Wii will display an error on screen (good error, confirming trim and RVL-PMS2 are working).  

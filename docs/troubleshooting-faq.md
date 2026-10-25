@@ -38,7 +38,7 @@ If the build is experiencing one or more of the following symptoms:
 
 Then the first step is to ensure that the Xii-Boy Ultra has the latest version of RVLoader installed. The latest version can be found under the releases section on [RVLoader's GitHub page.](https://github.com/Aurelio92/RVLoader/releases)
 
-If that does not solve the issue, check the [I2C](https://xbu-guide.me/basic-electronics#what-is-i2c) traces on the Xii-Flex Ultra. A poor or cold connection can cause interference or read issues, leading to errors.
+If that does not solve the issue, check the [I2C](/basic-electronics#what-is-i2c) traces on the Xii-Flex Ultra. A poor or cold connection can cause interference or read issues, leading to errors.
 
 If temps reading at `-273°C` is the *only* issue at hand, then check the connections on the thermistor pads: `1.8v` and `T-`. There should be a resistance of `9kΩ-10kΩ` across the thermistor.
 
